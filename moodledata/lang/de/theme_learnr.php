@@ -1,0 +1,493 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'theme_learnr', language 'de', version '4.1'.
+ *
+ * @package     theme_learnr
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['activityiconcoloradministrationsetting'] = 'Farbe des Aktivitätsicon für „Administration“';
+$string['activityiconcoloradministrationsetting_desc'] = 'Die Farbe des Aktivitätsicon für „Administration“';
+$string['activityiconcolorassessmentsetting'] = 'Farbe des Aktivitätsicon für „Bewertung“';
+$string['activityiconcolorassessmentsetting_desc'] = 'Die Farbe des Aktivitätsicon für „Bewertung“';
+$string['activityiconcolorcollaborationsetting'] = 'Farbe des Aktivitätsicon für „Zusammenarbeit“';
+$string['activityiconcolorcollaborationsetting_desc'] = 'Die Farbe des Aktivitätsicon für „Zusammenarbeit“';
+$string['activityiconcolorcommunicationsetting'] = 'Farbe des Aktivitätsicon für „Kommunikation“';
+$string['activityiconcolorcommunicationsetting_desc'] = 'Die Farbe des Aktivitätsicon für „Kommunikation“';
+$string['activityiconcolorcontentsetting'] = 'Farbe des Aktivitätsicon für „Inhalt“';
+$string['activityiconcolorcontentsetting_desc'] = 'Die Farbe des Aktivitätsicon für „Inhalt“';
+$string['activityiconcolorinterfacesetting'] = 'Farbe des Aktivitätsicon für „Schnittstelle“';
+$string['activityiconcolorinterfacesetting_desc'] = 'Die Farbe des Aktivitätsicon für „Schnittstelle“';
+$string['activityiconcolorsheading'] = 'Farben für Aktivitätsicon';
+$string['activitynavigation'] = 'Aktivitätsnavigation';
+$string['activitynavigationsetting'] = 'Elemente der Aktivitätsnavigation';
+$string['activitynavigationsetting_desc'] = 'Mit dieser Einstellung werden die Elemente zum Springen zur vorherigen und nächsten Aktivität/Ressource sowie das Pulldown-Menü zum Springen zu einer bestimmten Aktivität/Ressource angezeigt. UI-Elemente wie dieses gab es bereits in Boost in Moodle Core bis Moodle 3.11, wurden aber in 4.0 entfernt. Mit LearnR können Sie sie zurückbringen.';
+$string['additionalresourcesfileurlpersistent'] = 'URL (permanent)';
+$string['additionalresourcesfileurlrevisioned'] = 'URL (revisioniert)';
+$string['additionalresourcesheading'] = 'Zusätzliche Ressourcen';
+$string['additionalresourceslistsetting'] = 'Liste zusätzlicher Ressourcen';
+$string['additionalresourceslistsetting_desc'] = 'Dies ist die Liste der Dateien, die Sie in den Dateibereich für zusätzliche Ressourcen hochgeladen haben. Die angegebenen URLs können verwendet werden, um in Ihrem benutzerdefinierten CSS, in der Fußnote oder überall dort, wo Sie hochgeladene Dateien verwenden müssen, aber keine Dateien direkt hochladen dürfen, auf diese Dateien zu verlinken.';
+$string['additionalresourcessetting'] = 'Zusätzliche Ressourcen';
+$string['additionalresourcessetting_desc'] = 'Mit dieser Einstellung können Sie zusätzliche Ressourcen zum Theme hochladen. Der Vorteil des Hochladens von Dateien in diesen Dateibereich besteht darin, dass diese Dateien ohne weitere Prüfung bereitgestellt werden können, sofern der bereitstellende Benutzer angemeldet ist. Aus diesem Grund sollten Sie auch nur Dateien zulassen, die unkritisch sind und alle (inkl. Besuchern und Gästen ohne Anmeldung) Zugriff darauf haben sollen. Sobald Sie mindestens eine Datei in diesen Dateibereich hochgeladen und die Einstellungen gespeichert haben, erscheint darunter eine Liste mit der URL, mit der Sie auf eine bestimmte Datei verweisen können.';
+$string['backgroundimagesetting'] = 'Hintergrundbild';
+$string['backgroundimagesetting_desc'] = 'Hier können Sie ein benutzerdefiniertes Bild hochladen, das als Hintergrund Ihrer Website angezeigt wird. Das Hintergrundbild, das Sie hier hochladen, überschreibt das Hintergrundbild in Ihren Design-Voreinstellungen.';
+$string['backgroundimagesheading'] = 'Allgemeine Hintergrundbilder';
+$string['backtotop'] = 'nach oben';
+$string['backtotopbuttonsetting'] = 'nach oben Button';
+$string['backtotopbuttonsetting_desc'] = 'Mit dieser Einstellung erscheint in der unteren rechten Ecke der Seite eine Schaltfläche „nach oben“, sobald der Benutzer auf der Seite nach unten scrollt. Eine solche Schaltfläche gab es bereits bis Moodle 3.11 in Boost in Moodle Core, wurde jedoch in 4.0 entfernt. Mit LearnR können Sie es zurückbringen.';
+$string['bgdark'] = 'Navigationsleiste dunkle Farbe';
+$string['bgdark_desc'] = 'Ändert den Wert der css-class ".bg-dark".';
+$string['bgwhite'] = 'Navigationsleiste helle Farbe';
+$string['bgwhite_desc'] = 'Ändert den Wert der css-class ".bg-white".';
+$string['blockregionoutsidebottomwidth'] = 'Breite für den Block „Außen (unten)“.';
+$string['blockregionoutsidebottomwidth_desc'] = 'Mit dieser Einstellung können Sie die Breite des Blockbereichs „Außen (unten)“ festlegen, der unterhalb des Hauptinhalts angezeigt wird. Sie können zwischen voller Breite, Kursinhaltsbreite und "Hero"-breite wählen.';
+$string['blockregionoutsideleftwidth'] = 'Breite für den Block „Außen (links)“.';
+$string['blockregionoutsideleftwidth_desc'] = 'Mit dieser Einstellung können Sie die Breite des Blockbereichs „Außen (links)“ festlegen, der auf der linken Seite des Hauptinhaltsbereichs angezeigt wird. Standardmäßig verwendet LearnR eine Breite von 300 Pixel. Sie können andere pixelbasierte Werte wie 200px eingeben, aber Sie können auch einen prozentbasierten Wert wie 10 % oder einen Wert für die Ansichtsfensterbreite wie 10vw eingeben.';
+$string['blockregionoutsiderightwidth'] = 'Breite für den Block „Außen (rechts)“.';
+$string['blockregionoutsiderightwidth_desc'] = 'Mit dieser Einstellung können Sie die Breite des Blockbereichs „Außen (rechts)“ festlegen, der auf der linken Seite des Hauptinhaltsbereichs angezeigt wird. Standardmäßig verwendet LearnR eine Breite von 300 Pixel. Sie können andere pixelbasierte Werte wie 200px eingeben, aber Sie können auch einen prozentbasierten Wert wie 10 % oder einen Wert für die Ansichtsfensterbreite wie 10vw eingeben.';
+$string['blockregionoutsidetopwidth'] = 'Breite für den Block „Außen (oben)“.';
+$string['blockregionoutsidetopwidth_desc'] = 'Mit dieser Einstellung können Sie die Breite des Blockbereichs „Außen (oben)“ festlegen, der unterhalb des Hauptinhalts angezeigt wird. Sie können zwischen voller Breite, Kursinhaltsbreite und "Hero"-breite wählen.';
+$string['blockregionsforlayout'] = 'Zusätzlicher Block für das Layout „{$a}“.';
+$string['blockregionsforlayout_desc'] = 'Mit dieser Einstellung können Sie zusätzliche Blockbereiche für das Layout „{$a}“ aktivieren.';
+$string['blockregionsheading'] = 'Zusätzliche Blockbereiche';
+$string['blockregionsheading_desc'] = '<p>LearnR bietet eine große Anzahl zusätzlicher Blockbereiche, die zum Hinzufügen und Anzeigen von Blöcken auf der gesamten Moodle-Seite verwendet werden können:</p>
+<ul><li>Die <em>Außerhalb-Blöcke</em> werden auf allen vier Seiten der Moodle-Seite platziert. Mit ihnen können Blöcke angezeigt werden, die die angezeigte Moodle-Seite begleiten, aber nicht direkt zum Hauptinhalt gehören.</li>
+<li>Die <em>Kopfzeilen-Blöcke</em> wird zwischen dem Außenbereich (oben) und dem Hauptinhaltsbereich platziert. Es kann verwendet werden, um einen Block als Kurskopfinformationen anzuzeigen.</li>
+<li>Die <em>Inhalts-Blöcke</em> werden direkt über und unter dem Hauptinhalt im Hauptinhaltsbereich platziert. Sie können verwendet werden, um Blöcke zum Kursinhalt hinzuzufügen.</li>
+<li>Die <em>Fußzeilen-Blöcke</em> werden unten auf der Seite zwischen dem Außenbereich (unten) und der Fußnote platziert. Ihnen stehen drei Fußzeilenbereiche zur Verfügung, um bei Bedarf Spalten nutzen zu können.</li>
+<li>Die <em>Off-canvas (außerhalb des Sichtbereiches)-Blöcke</em> ist besonders, da es als Schublade über der gesamten Moodle-Seite schwebt. Die Schublade wird über das 9-Punkte-Symbol ganz rechts in der Navigationsleiste geöffnet. Ihnen stehen drei Off-Canvas-Bereiche zur Verfügung, um bei Bedarf Spalten zu erstellen.</li></ul>
+<p>Bitte bachten Sie:</p>
+<ul><li>Standardmäßig sind alle zusätzlichen Blöcke deaktiviert. Bitte aktivieren Sie die jeweiligen Blöcke in den jeweiligen Seitenlayouts entsprechend Ihren Anforderungen. Versuchen Sie übersichtlich zu bleiben – zu viele Blöcke könnten die Nutzer überfordern.</li>
+<li>Sobald ein zusätzlicher Blockbereich aktiviert ist, wird dieser für alle authentifizierten Benutzer sichtbar und kann von Lehrern und Managern bearbeitet werden (natürlich abhängig davon, ob der jeweilige Benutzer die entsprechende Moodle-Seite bearbeiten darf). Es gibt aber auch die Funktionen theme/learnr:viewregion* und theme/learnr:editregion*, mit denen Sie die Nutzung jeder Blockregion entsprechend Ihren Anforderungen optimieren können.</li>
+<li>Die Blockbereiche „Außen“ (links), „Außen“ (rechts), „Inhalt“ (oben), „Inhalt“ (unten) und „Kopfzeile“ sind nicht für alle Seitenlayouts verfügbar.</li></ul>';
+$string['blockregionsheading_experimental'] = 'Bitte beachten Sie: Die Blockbereiche <em>„Außen (links)“ und „Außen (rechts)“</em> funktionieren im aktuellen Stand der Implementierung vollständig, müssen aber dennoch als experimentell betrachtet werden, da sie auf Bildschirmen mittlerer Breite noch nicht richtig umbrochen werden. Bitte nutzen Sie diese vor diesem Hintergrund mit Vorsicht. Dieses Problem wird in einer kommenden Version behoben.';
+$string['blocksgeneralheading'] = 'Allgemeine Blöcke';
+$string['blockstab'] = 'Blöcke';
+$string['bodybg'] = 'Hintergrundfarbe des Randbereichs';
+$string['bodybg_desc'] = 'Hintergrundfarbe des Randbereichs festlegen';
+$string['bootstrapcolordangersetting'] = 'Bootstrap-Farbe für „Gefahr“';
+$string['bootstrapcolordangersetting_desc'] = 'Die Bootstrap-Farbe für „Gefahren“';
+$string['bootstrapcolorinfosetting'] = 'Bootstrap-Farbe für „Info“';
+$string['bootstrapcolorinfosetting_desc'] = 'Die Bootstrap-Farbe für „Informationen“';
+$string['bootstrapcolorsheading'] = 'Bootstrap Farben';
+$string['bootstrapcolorsuccesssetting'] = 'Bootstrap-Farbe für „Erfolgreich“';
+$string['bootstrapcolorsuccesssetting_desc'] = 'Die Bootstrap-Farbe für „Erfolge“';
+$string['bootstrapcolorwarningsetting'] = 'Bootstrap-Farbe für „Warnung“';
+$string['bootstrapcolorwarningsetting_desc'] = 'Bootstrap-Farbe für „Warnungen“';
+$string['bootstrapdangercolor'] = 'Warnfarbe';
+$string['bootstrapdarkcolor'] = 'Dunkle Farbe';
+$string['bootstrapinfocolor'] = 'Info Farbe';
+$string['bootstraplightcolor'] = 'Helle Farbe';
+$string['bootstrapnone'] = 'Keine Bootstrap Farbe';
+$string['bootstrapprimarycolor'] = 'Primärfarbe';
+$string['bootstrapsecondarycolor'] = 'Sekundärfarbe';
+$string['bootstrapsuccesscolor'] = 'Farbe für "Erfolg"';
+$string['bootstrapwarningcolor'] = 'Farbe für "Warnung"';
+$string['brandcolorsheading'] = 'Unternehmens-/Markenfarbe';
+$string['brandingtab'] = 'Branding';
+$string['cachedef_flavours'] = 'Varianten, die für eine bestimmte Seitenkategorie-ID beim aktuellen Benutzer gelten';
+$string['cachedef_fontawesome'] = 'FontAwesome-Dateien (die in den LearnR-Einstellungen hochgeladen werden)';
+$string['choosereadme'] = '<p>Das LearnR-Theme ist vollständig von LearnR und den Fordson-Themen inspiriert. LearnR beginnt mit den herausragenden Funktionen, UX-Verbesserungen und der Funktionalität von LearnR. Um die Dinge auf die nächste Ebene zu heben, haben wir viele der Features, Stile und die beliebtesten Funktionen des Fordson-Themes integriert.</p><p>LearnR wird gepflegt von<br />Moodle an Hochschulen e.V.,</p><p>in kooperation mit<br />lern.link GmbH</p><p>zusammen mit<br />bdecent GmbH</p>';
+$string['closeoffcanvas'] = 'Schließen Sie die Off-Canvas-Schublade';
+$string['configtitle'] = 'LearnR';
+$string['configtitlecontent'] = 'Inhalt';
+$string['configtitlefeel'] = 'Empfinden';
+$string['configtitleflavours'] = 'Varianten';
+$string['configtitlefunctionality'] = 'Funktionalität';
+$string['configtitlelook'] = 'Aussehen';
+$string['contactcontentsetting'] = 'Inhalt "Kontakt"-Seite';
+$string['contactcontentsetting_desc'] = 'In dieser Einstellung können Sie Rich-Text-Inhalte hinzufügen, die auf einer Kontaktseite angezeigt werden (die nicht mit der integrierten Moodle-Seite „Site-Support kontaktieren“ identisch ist).';
+$string['contactdisabled'] = 'Die Kontaktseite ist für diese Website deaktiviert. Ansonsten gibt es hier nichts zu sehen.';
+$string['contactheading'] = 'Kontakt';
+$string['contactlinkpositionboth'] = 'Fügen Sie der Fußnote und dem Fußzeilensymbol (?) einen Link zur Kontaktseite hinzu';
+$string['contactlinkpositionfooter'] = 'Fügen Sie dem Fußzeilensymbol (?) einen Link zur Kontaktseite hinzu';
+$string['contactlinkpositionfootnote'] = 'Fügen Sie der Fußnote einen Link zur Kontaktseite hinzu';
+$string['contactlinkpositionnone'] = 'Zeigt nicht automatisch einen Link zur Kontaktseite an';
+$string['contactlinkpositionsetting'] = 'Position des "Kontakt"-Links';
+$string['contactlinkpositionsetting_desc'] = 'In dieser Einstellung können Sie bestimmen, ob ein Link zur Kontaktseite automatisch zur Moodle-Seite hinzugefügt werden soll. Wenn Sie nicht möchten, dass ein Link automatisch angezeigt wird, können Sie von überall in Moodle einen manuellen Link zu {$a-url} hinzufügen.';
+$string['contactpagetitledefault'] = 'Kontakt';
+$string['contactpagetitlesetting'] = 'Titel der "Kontakt"-Seite';
+$string['contactpagetitlesetting_desc'] = 'In dieser Einstellung können Sie den Titel der Kontaktseite festlegen. Dieser Text wird auch als Linktext zur Kontaktseite verwendet, wenn Sie die <i>Position des "Kontakt"-Links</i> zur Kontaktseite entsprechend konfigurieren.';
+$string['contentwidthheading'] = 'Breite des Inhalts';
+$string['courseactivitiesbtntext'] = 'Kursaktivitäten';
+$string['courseblockpanelbtn'] = 'Kursverwaltung';
+$string['courseblockpanelbtnclose'] = 'Schließen';
+$string['courseboxheight'] = 'Höhe der Kurskacheln';
+$string['courseboxheight_desc'] = 'Diese Einstellung steuert die Höhe der Kurskacheln auf der Startseite und in den Kursbereichen';
+$string['coursecontentmaxwidthsetting'] = 'Maximale Breite des Kursinhaltes';
+$string['coursecontentmaxwidthsetting_desc'] = 'Mit dieser Einstellung können Sie die Breite des Kursinhalts von Moodle ohne manuelle SCSS-Änderungen überschreiben. Diese Breite wird als Seitenbreite von Kursseiten und innerhalb verschiedener Aktivitäten verwendet. Standardmäßig verwendet Moodle eine maximale Breite des Kursinhalts von 830px. Sie können andere pixelbasierte Werte wie 1200px eingeben, aber Sie können auch einen prozentbasierten Wert wie 100% oder einen Wert für die Ansichtsfensterbreite wie 90vw eingeben.';
+$string['courseenrollmentcode'] = 'Einschreibecode für den Kurs';
+$string['courseheaderheading'] = 'Kursüberschrift';
+$string['courseheaderimageenabled'] = 'Zeigt das Kursbild im Kopfbereich des Kurses an';
+$string['courseheaderimageenabled_desc'] = 'Wenn diese Option aktiviert ist, wird das Kursbild (das in den Kurseinstellungen eines Kurses hochgeladen werden kann) in der Kopfzeile eines Kurses angezeigt. Die Kursbilder werden dort zusätzlich zur Seite „Meine Kurse“ angezeigt, wo sie immer angezeigt werden.';
+$string['courseheaderimagefallback'] = 'Standardkursbild im Kopfbereich des Kurses';
+$string['courseheaderimagefallback_desc'] = 'Wenn Sie in dieser Einstellung ein Bild hochladen, wird es als Standardbild verwendet und im Kopfbereich des Kurses angezeigt, sobald kein bestimmtes Kursbild für diesen Kurs festgelegt wurde. Wenn Sie hier nichts hinterlegen, wird im Kopfbereich eines Kurses nur dann ein Bild angezeigt, wenn es in seinen eigenen Kurseinstellungen hochgeladen wurde.';
+$string['courseheaderimageheight'] = 'Höhe des Kursbildes';
+$string['courseheaderimageheight_desc'] = 'Mit dieser Einstellung bestimmen Sie die Höhe des angezeigten Kursbildes.';
+$string['courseheaderimagelayout'] = 'Bildlayout für die Kursüberschrift';
+$string['courseheaderimagelayout_desc'] = 'Mit dieser Einstellung steuern Sie das Layout des Kursbildes und des Kurstitels.';
+$string['courseheaderimagelayoutheadingabove'] = 'Kurstitel über dem Kursbild';
+$string['courseheaderimagelayoutstackeddark'] = 'Kurstitel liegt auf dem Kursbild (weiße Schriftfarbe für dunkle Hintergrundbilder)';
+$string['courseheaderimagelayoutstackedlight'] = 'Kurstitel liegt auf dem Kursbild (schwarze Schriftfarbe für helle Hintergrundbilder)';
+$string['courseheaderimageposition'] = 'Position des Kursbildes';
+$string['courseheaderimageposition_desc'] = 'Mit dieser Einstellung bestimmen Sie die Positionierung des Kursbildes innerhalb des Kursbild-Containers. Der erste Wert ist die horizontale Position, der zweite Wert ist die vertikale Position.';
+$string['coursemanagementbutton'] = 'Kursverwaltung';
+$string['coursemanagetitle'] = 'Kurs';
+$string['courserelatedhintsheading'] = 'Kursbezogene Hinweise';
+$string['coursestab'] = 'Kurse';
+$string['coursestyle1'] = 'Kacheln 1';
+$string['coursestyle2'] = 'Kacheln 2';
+$string['coursestyle3'] = 'Kacheln 3';
+$string['coursestyle4'] = 'Kacheln 4 - mit Kursbeschreibung';
+$string['coursestyle5'] = 'Horizontal 1';
+$string['coursestyle6'] = 'Horizontal - mit Hintergrund und allen Details';
+$string['coursestyle7'] = 'Horizontal - mit Hintergrund, Titel und Trainer/in';
+$string['coursestyle8'] = 'Standard Moodle Kursanzeige';
+$string['coursetab'] = 'Kurs';
+$string['coursetilestyle'] = 'Anzeige der Kurskacheln';
+$string['coursetilestyle_desc'] = 'Sie können aus den folgenden Darstellungen auswählen, wie Kurse auf der Startseite und in den Kursbereichen angezeigt werden sollen.';
+$string['createinfo'] = 'Taste für Kursersteller/in';
+$string['createinfodesc'] = 'Diese Taste erscheint auf der Startseite, wenn Nutzer/innen neue Kurse erstellen können. Diejenigen mit der Rolle "Kursersteller/in" auf Website-Ebene sehen diese Taste.';
+$string['cssh5pheading'] = 'Raw CSS für H5P';
+$string['cssh5psetting'] = 'Raw CSS für H5P';
+$string['cssh5psetting_desc'] = 'Verwenden Sie dieses Feld, um CSS-Code bereitzustellen, der auf die Präsentation von H5P-Inhalten durch mod_h5p und mod_hvp angewendet wird. Bitte überprüfen Sie die H5P-Inhaltstypen, um die erforderlichen CSS-Selektoren zu finden.';
+$string['customfontsfileurlpersistent'] = 'URL (permanent)';
+$string['customfontsfileurlrevisioned'] = 'URL (reversioniert)';
+$string['customfontsheading'] = 'Nutzerdefinierte Schriftarten';
+$string['customfontslistsetting'] = 'Liste der nutzerdefinierte Schriftarten';
+$string['customfontslistsetting_desc'] = 'Dies ist die Liste der Schriftarten, die Sie in den Dateibereich für nutzerdefinierte Schriftarten hochgeladen haben. Die angegebenen CSS-Snippets können verwendet werden, um diese Schriftarten zu Ihrem nutzerdefinierten SCSS hinzuzufügen. Bitte beachten Sie, dass Sie sich vorerst selbst um den Wert des Schriftartformats sowie die CSS-Eigenschaften „font-family“, „font-style“ und „font-weight“ kümmern müssen, da LearnR die Schriftartdateien noch nicht analysieren kann.';
+$string['customfontssetting'] = 'Nutzerdefinierte Schriftarten';
+$string['customfontssetting_desc'] = 'Mit dieser Einstellung können Sie nutzerdefinierte Schriftarten in das Theme hochladen. Der Vorteil des Hochladens von Schriftarten in diesen Dateibereich besteht darin, dass diese Schriftarten ohne Prüfung bereitgestellt werden können, wenn der Benutzer angemeldet ist, und als lokal installierte Schriftarten überall auf der Website verwendet werden können. Sobald Sie mindestens eine Schriftart in diesen Dateibereich hochgeladen und die Einstellungen gespeichert haben, erscheint darunter eine Liste, die Ihnen CSS-Code-Snippets bietet, die Sie als Boilerplate verwenden können, um bestimmte Schriftarten in Ihrem benutzerdefinierten SCSS zu referenzieren.';
+$string['drawerbg'] = 'Hintergrundfarbe für Leiste';
+$string['drawerbg_desc'] = 'Legen Sie die Hintergrundfarbe der Leiste fest.';
+$string['easyenrollbtn'] = 'Anmeldecodes';
+$string['emailbrandinghtmldemobody'] = '<p>Die E-Mail beginnt hier.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Id donec ultrices tincidunt arcu non sodales. Id volutpat lacus laoreet non curabitur gravida arcu.</p><p>Cursus turpis massa tincidunt dui. Pellentesque nec nam aliquam sem et tortor consequat id. In ornare quam viverra orci sagittis eu volutpat. Sem nulla pharetra diam sit amet nisl suscipit. Justo donec enim diam vulputate ut pharetra.</p><p>Die E-Mail endet hier.</p>';
+$string['emailbrandinghtmlheading'] = 'HTML-E-Mail Vorschau';
+$string['emailbrandinghtmlintro'] = 'Dies ist die Vorschau einer HTML-E-Mail basierend auf den Branding-Präfixen und Suffixen, wie sie derzeit im Sprachpaket festgelegt sind.';
+$string['emailbrandinghtmlnopreview'] = 'Bisher wurden die HTML-E-Mails innerhalb dieser Funktion nicht angepasst. E-Mails werden wie gewohnt verfasst und versendet.';
+$string['emailbrandinginstruction'] = 'Anleitung';
+$string['emailbrandinginstruction0'] = 'Mit dieser LearnR-Funktion können Sie Ihr Branding auf alle E-Mails anwenden, die Moodle versendet.';
+$string['emailbrandinginstructionli1'] = 'Gehen Sie zur Seite mit den <a href=\'{$a-url}\' target=\'_blank\'>Sprachanpassungseinstellungen</a>, um das Sprachpaket <em>{$a-lang}</em> zu bearbeiten.';
+$string['emailbrandinginstructionli2'] = 'Suchen und ändern Sie die Wörter im <code>theme_learnr language</code> Paket:';
+$string['emailbrandinginstructionli2li1'] = '<code>templateemailhtmlprefix</code>: Diese Zeichen/Wörter werden <em>am Anfang / vor den Textbody</em> von allen <em>HTML-E-Mails</em> hinzugefügt, die Moodle verschickt.';
+$string['emailbrandinginstructionli2li2'] = '<code>templateemailhtmlprefix</code>: Diese Zeichen/Wörter werden <em>am Anfang / vor den Textbody</em> von allen <em>HTML-E-Mails</em> hinzugefügt, die Moodle verschickt.';
+$string['emailbrandinginstructionli2li3'] = '<code>templateemailhtmlprefix</code>: Diese Zeichen/Wörter werden <em>am Anfang / vor den Textbody</em> von allen <em>HTML-E-Mails</em> hinzugefügt, die Moodle verschickt.';
+$string['emailbrandinginstructionli2li4'] = '<code>templateemailhtmlprefix</code>: Diese Zeichen/Wörter werden <em>am Anfang / vor den Textbody</em> von allen <em>HTML-E-Mails</em> hinzugefügt, die Moodle verschickt.';
+$string['emailbrandinginstructionli3'] = 'Speichern Sie die Änderungen im Sprachpaket.';
+$string['emailbrandinginstructionli4'] = 'Kehren Sie auf diese Seite zurück und werfen Sie einen Blick auf die E-Mail-Vorschau unten.';
+$string['emailbrandingintroheading'] = 'Einleitung';
+$string['emailbrandingintronote'] = 'Beachten Sie bitte: Dies ist eine erweiterte Funktionalität, die einige Problemumgehungen verwendet, um E-Mail-Branding-Optionen bereitzustellen. Befolgen Sie die Anweisungen genau.';
+$string['emailbrandingpitfalls'] = 'Fallstricke / Tücken';
+$string['emailbrandingpitfalls0'] = 'Bei der Verwendung dieser Funktion gibt es einige Fallstricke / Tücken, die Sie beachten sollten:';
+$string['emailbrandingpitfallsli1'] = 'Es ist zwingend erforderlich, dass Sie die Sprachpaketzeichenfolgen der <em>aktuellen Standardsprache</em> dieser Site ändern. Selbst wenn Sie mehrere Sprachpakete installiert haben, haben nur Änderungen an der Standardsprache Auswirkungen.';
+$string['emailbrandingpitfallsli2'] = 'Sie können nichts über die Sprachkenntnisse des Empfängers wissen. Daher sollten Sie in Ihren E-Mail-Branding-Snippets keine sprachspezifische Begriffe, wie z.B. Dialekt, verwenden.';
+$string['emailbrandingpitfallsli3'] = 'Wenn Sie in Zukunft jemals die Standardsprache der Site ändern, müssen Sie die geänderten Sprachpaketzeichenfolgen in das neue Standardsprachpaket migrieren.';
+$string['emailbrandingpitfallsli4'] = 'In Nurtext-E-Mails gibt es einen Zeilenumbruch und eine automatisch eingefügte Leerzeile nach dem Präfix und eine automatisch eingefügte Leerzeile vor dem Suffix-Snippet. Dadurch soll sichergestellt werden, dass Suffix und Präfix nicht direkt am E-Mail-Text hängen bleiben.';
+$string['emailbrandingpitfallsli5'] = 'In HTML-E-Mails werden das Präfix und das Suffix direkt vor und über dem E-Mail-Text eingefügt. Damit soll sichergestellt werden, dass Sie problemlos mit HTML-Tags arbeiten können. Allerdings müssen Sie sich um alle Abstände im Text selbst kümmern.';
+$string['emailbrandingpitfallsli6'] = 'In HTML-E-Mails können Sie problemlos ein HTML-Tag im Präfix-Snippet öffnen und das Tag im Suffix-Snippet schließen. Denken Sie daran, in der resultierenden E-Mail gültigen HTML-Code zu erstellen.';
+$string['emailbrandingtab'] = 'E-Mail Branding';
+$string['emailbrandingtextdemobody'] = 'Der E-Mail-Text beginnt hier.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Id donec ultrices tincidunt arcu non sodales. Id volutpat lacus laoreet non curabitur gravida arcu.
+
+Cursus turpis massa tincidunt dui. Pellentesque nec nam aliquam sem et tortor consequat id. In ornare quam viverra orci sagittis eu volutpat. Sem nulla pharetra diam sit amet nisl suscipit. Justo donec enim diam vulputate ut pharetra.
+
+Der E-Mail-Text endet hier.';
+$string['emailbrandingtextheading'] = 'Nurtext-E-Mail Vorschau';
+$string['emailbrandingtextintro'] = 'Dies ist eine Vorschau einer Nurtext-E-Mail basierend auf den Branding-Präfixen und Suffixen, die derzeit im Sprachpaket festgelegt sind.';
+$string['emailbrandingtextnopreview'] = 'Bisher wurden die Nurtext E-Mails innerhalb dieser Funktion noch nicht angepasst. E-Mails werden demnach wie gewohnt verfasst und versendet.';
+$string['enablecontactsetting'] = 'Kontaktseite aktivieren';
+$string['enablehelpsetting'] = 'Hilfeseite aktivieren';
+$string['enableimprintsetting'] = 'Impressum aktivieren';
+$string['enablemaintenancesetting'] = 'Wartungsinformationsseite aktivieren';
+$string['enrollcoursecard'] = 'Kurs ansehen';
+$string['error:infobannerdismissnonotdismissible'] = 'Das angegebene Infobanner kann nicht entfernt werden.';
+$string['error:infobannerdismissnonotvalid'] = 'Die angegebene Infobannernummer ist ungültig';
+$string['exporttomistar'] = 'Export nach MIStar';
+$string['faviconheading'] = 'Favicon';
+$string['faviconheading_desc'] = 'Bitte beachten Sie: LearnR verfügt über einen eigenen Favicon-Upload und verwendet nicht das Favicon von <a href="{$a}">Moodle core\'s favicon Einstellungen</a>.<br />LearnR ermöglicht es Ihnen insbesondere, das hochgeladene Favicon innerhalb seiner Varianten zu überschreiben.';
+$string['faviconsetting'] = 'Favicon';
+$string['faviconsetting_desc'] = 'Hier können Sie ein benutzerdefiniertes Bild (.ico- oder .png-Format) hochladen, das der Browser als Favicon Ihrer Moodle Website anzeigt. Wenn kein benutzerdefiniertes Favicon hochgeladen wird, wird ein Standard-Moodle-Favicon verwendet.';
+$string['flavoursappliesto'] = 'Gültig für';
+$string['flavoursapplytocategories'] = 'Zuweisung zu Kursbereichen';
+$string['flavoursapplytocategories_help'] = 'Hier legen Sie fest, ob diese Variante auf Kursbereiche angewendet werden soll.';
+$string['flavoursapplytocategories_ids'] = 'Kurskategorien';
+$string['flavoursapplytocategories_ids_help'] = 'Hier definieren Sie eine oder mehrere bestimmte Kurskategorien, auf die diese Variante angewendet werden soll. Sobald sich die gerenderte Moodle-Seite in einer der konfigurierten Kurskategorien befindet, wird die Variante angewendet.';
+$string['flavoursapplytocohorts'] = 'Zuweisung zu globalen Gruppen';
+$string['flavoursapplytocohorts_help'] = 'Hier legen Sie fest, ob diese Variante bei globalen Gruppen angewendet werden soll.';
+$string['flavoursapplytocohorts_ids'] = 'Globale Gruppen';
+$string['flavoursapplytocohorts_ids_help'] = 'Hier definieren Sie eine oder mehrere globabe Gruppen,, auf die diese Variante angewendet werden soll.  Sobald deine Person Mitglied einer der konfigurierten globalen Gruppen ist, wird die Variante angewendet.<br /><br />Beachten Sie bitte, dass es nicht erforderlich ist, dass die Person Mitglied in allen globalen Gruppen gleichzeitig sein muss.<br /><br />Beachten Sie bitte auch, dass globale Gruppen in Kursbereichen zum aktuellen Stand genauso behandelt werden wie globale Gruppen in gesamten System.';
+$string['flavoursbackgroundimage'] = 'Hintergrundbild';
+$string['flavoursbackgroundimage_help'] = 'Mit dieser Einstellung überschreibt die Variante das Hintergrundbild, das in den "Aussehen"-Einstellungen von LearnR konfiguriert ist.';
+$string['flavoursbacktooverview'] = 'Zurück zur Variantenübersicht';
+$string['flavourscreateflavour'] = 'Neue Variante';
+$string['flavourscustomcss'] = 'Benutzerdefiniertes CSS';
+$string['flavourscustomcss_help'] = 'Mit dieser Einstellung können Sie benutzerdefiniertes CSS für die Variante schreiben. Es wird an den CSS-Codestapel angehängt, der an den Browser gesendet wird, sobald die Variante angewendet wird. Bitte beachten Sie, dass diese Einstellung im aktuellen Stand der Implementierung nur die Verwendung von benutzerdefiniertem CSS und nicht von SCSS zulässt.';
+$string['flavoursdelete'] = 'löschen';
+$string['flavoursdeleteconfirmation'] = 'Möchten Sie die Variante <em>{$a}</em> wirklich löschen?';
+$string['flavoursdeleteflavour'] = 'Variante löschen';
+$string['flavoursdescription'] = 'Beschreibung';
+$string['flavoursdescription_help'] = 'Die Beschreibung der Variante wird nur intern verwendet, um Ihnen die Identifizierung einer bestimmten Variante in der Liste der Varianten zu ermöglichen.';
+$string['flavoursedit'] = 'Bearbeiten';
+$string['flavourseditflavour'] = 'Variante bearbeiten';
+$string['flavoursfavicon'] = 'Favicon';
+$string['flavoursfavicon_help'] = 'Mit dieser Einstellung überschreibt die Variante das Favicon, das in den Aussehen-Einstellungen von LearnR konfiguriert ist.';
+$string['flavoursflavours'] = 'Varianten';
+$string['flavoursgeneralsettings'] = 'Allgemeine Einstellungen';
+$string['flavoursincludesubcategories'] = 'Unterkategorien einschließen';
+$string['flavoursincludesubcategories_help'] = 'Wenn diese Option aktiviert ist, wird die Variante auch auf die Unterkategorien der ausgewählten Kategorien angewendet.';
+$string['flavourslogo'] = 'Logo';
+$string['flavourslogo_help'] = 'Mit dieser Einstellung überschreibt die Variante das Logo, das in den Aussehen-Einstellungen von LearnR konfiguriert ist.';
+$string['flavourslogocompact'] = 'Kompaktes Logo';
+$string['flavourslogocompact_help'] = 'Mit dieser Einstellung überschreibt die Variante das Logo, das in den Aussehen-Einstellungen von LearnR konfiguriert ist.';
+$string['flavoursnothingtodisplay'] = 'Es wurden noch keine Varianten erstellt. Bitte erstellen Sie Ihre erste Variante, um loszulegen.';
+$string['flavoursnotificationcreated'] = 'Die Variante wurde erfolgreich erstellt';
+$string['flavoursnotificationdeleted'] = 'Die Variante wurde erfolgreich entfernt';
+$string['flavoursnotificationedited'] = 'Die Variante wurde erfolgreich bearbeitet';
+$string['flavoursoverview_desc'] = '<p>Die Varianten von LearnR bieten die Möglichkeit, bestimmte Moodle-Look-and-Feel-Einstellungen in bestimmten Kontexten zu überschreiben. Auf dieser Seite können Sie Varianten erstellen und verwalten.</p><p>Innerhalb jeder Variante legen Sie fest, ob diese auf bestimmte Kurskategorien oder bestimmte Kohorten angewendet werden soll. Anschließend prüft LearnR bei jedem Rendern einer Moodle-Seite, ob eine Variante zutrifft. Bitte beachten Sie, dass bei jedem Rendern einer Moodleseite nur die erste passende Variante in der Liste angewendet wird und die übrigen Varianten ignoriert werden. Daher ist die Reihenfolge der Varianten auf dieser Seite entscheidend.</p><p>Innerhalb jeder Variante legen Sie fest, ob sie auf bestimmte Kurskategorien oder bestimmte Kohorten angewendet werden soll. Anschließend prüft LearnR bei jedem Rendern einer Moodleseite, ob eine Variante zutrifft.</p><p>Bitte beachten Sie auch, dass nach jeder Änderung, die Sie an den Varianten vornehmen, der Theme-Cache geleert wird. Dies ist notwendig, um sicherzustellen, dass alle Assets ordnungsgemäß und aktuell an den Browser gesendet werden.</p>';
+$string['flavourspreview'] = 'Vorschau';
+$string['flavourspreviewblindtext'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam eleifend mi in nulla. Felis imperdiet proin fermentum leo vel orci porta. Sed nisi lacus sed viverra tellus in hac habitasse. Vivamus arcu felis bibendum ut. Nisi porta lorem mollis aliquam ut porttitor. Odio euismod lacinia at quis risus sed vulputate odio. Sed felis eget velit aliquet sagittis id consectetur purus. Nec ullamcorper sit amet risus nullam eget. Pellentesque sit amet porttitor eget dolor. Cursus mattis molestie a iaculis at erat pellentesque.';
+$string['flavourspreviewflavour'] = 'Vorschau der Variante';
+$string['flavourstitle'] = 'Bezeichnung';
+$string['flavourstitle_help'] = 'Die Bezeichnung der Variante wird nur intern verwendet, um Ihnen die Dokumentation einer bestimmten Variante in der Liste der Varianten zu ermöglichen.';
+$string['fontawesomecheck-fa6free-fallback-description'] = 'Neuere FontAwesome-Versionen verwenden die Möglichkeit, ältere Symbolkennungen neueren zuzuordnen oder sogar einige Symbole zu entfernen. Wenn Sie auf der linken Seite ein durchgezogenes Kartensymbol sehen, zeigt Ihre FontAwesome 6-Version die neu zugeordneten Symbole von FontAwesome 4 ordnungsgemäß an.';
+$string['fontawesomecheck-fa6free-fallback-title'] = 'FontAwesome 4 Rückfallebene';
+$string['fontawesomecheck-fa6free-filter-description'] = 'Da Sie das FontAwesome-Filter-Plugin installiert haben, sollten Sie sicherstellen, dass der Filter auch die neuen FontAwesome 6-Symbole korrekt verarbeitet. Wenn Sie auf der linken Seite ein Benutzersymbol sehen, funktioniert der Filter ordnungsgemäß mit den Symbolen der FontAwesome 6-Version.';
+$string['fontawesomecheck-fa6free-filter-title'] = 'FontAwesome Filter';
+$string['fontawesomecheck-fa6free-general-description'] = 'Wenn Sie auf der linken Seite ein Häkchensymbol sehen, funktioniert FontAwesome im Allgemeinen auf Ihrer Website.';
+$string['fontawesomecheck-fa6free-general-title'] = 'Grundfunktionen';
+$string['fontawesomecheck-fa6free-newstuff-description'] = 'Neuere FontAwesome-Versionen werden im Vergleich zum FontAwesome 4-Iconset mit zusätzlichen Symbolen ausgeliefert. Wenn Sie auf der linken Seite ein Virensymbol sehen, zeigt Ihre FontAwesome 6-Version ordnungsgemäß neue Symbole an, die in FontAwesome 6 neu sind.';
+$string['fontawesomecheck-fa6free-newstuff-title'] = 'FontAwesome 6 Symbole';
+$string['fontawesomecheckssetting'] = 'FontAwesome Überprüfung';
+$string['fontawesomecheckssetting_desc'] = 'Hier können Sie visuell überprüfen, ob die FontAwesome-Dateien ordnungsgemäß hochgeladen und zur Moodleseite hinzugefügt wurden. Sollte eine der Prüfungen fehlschlagen, überprüfen Sie bitte noch einmal, ob Sie alle erforderlichen Dateien korrekt hochgeladen haben.';
+$string['fontawesomefilessetting'] = 'FontAwesome Dateien';
+$string['fontawesomefilessetting_desc'] = 'Mit dieser Einstellung können Sie neuere FontAwesome-Dateien auf Moodle hochladen. Aus lizenzrechtlichen Gründen müssen Sie die FontAwesome-Dateien selbst auf Moodle hochladen. Gehen Sie einfach zu <a href="https://fontawesome.com">fontawesome.com</a>, laden Sie das FontAwesome-Paket herunter und laden Sie die Dateien hier hoch.';
+$string['fontawesomefilesstructurenote'] = 'Bitte beachten Sie, dass die Dateien mit der richtigen Ordnerstruktur und mit den richtigen Dateinamen hochgeladen werden müssen. Bitte beginnen Sie mit der Erstellung eines <em>css</em> und eines <em>webfonts</em> Ordner im Dateiexplorer, laden Sie die <em>fa-solid-900.woff2</em> in den <em>webfonts</em> Ordner hoch und speichern Sie die Einstellungen. Sobald Sie dies getan haben, erscheint unten eine Dateiliste, die Ihnen hilft, die richtigen Dateien zu identifizieren und in diese Ordner hochzuladen.';
+$string['fontawesomeheading'] = 'FontAwesome';
+$string['fontawesomelistfileinfo-fa6free-css-brands.min.css'] = 'Dies ist eine zusätzliche CSS-Datei, die die Schriftart für FontAwesome-Markensymbole zur Moodleseite hinzufügt.';
+$string['fontawesomelistfileinfo-fa6free-css-fontawesome.min.css'] = 'Dies ist die Haupt-CSS-Datei, die alle verfügbaren FontAwesome-Glyphen zur Moodleseite hinzufügt.';
+$string['fontawesomelistfileinfo-fa6free-css-regular.min.css'] = 'Dies ist eine zusätzliche CSS-Datei, die die Schriftart für reguläre FontAwesome-Symbole zur Moodleseite hinzufügt.';
+$string['fontawesomelistfileinfo-fa6free-css-solid.min.css'] = 'Dies ist eine zusätzliche CSS-Datei, die die Schriftart für FontAwesome-Symbole zur Moodleseite hinzufügt.';
+$string['fontawesomelistfileinfo-fa6free-css-v4-font-face.min.css'] = 'Dies ist die CSS-Datei, die dafür sorgt, dass die FontAwesome 4-Symbole in Moodle weiterhin korrekt angezeigt werden.';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-brands-400.ttf'] = 'Dies ist die Schriftartdatei für FontAwesome-Markensymbole (im TTF-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-brands-400.woff2'] = 'Dies ist die Schriftartdatei für FontAwesome-Markensymbole (im WOFF2-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-regular-400.ttf'] = 'Dies ist die Schriftartdatei für reguläre FontAwesome-Symbole (im TTF-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-regular-400.woff2'] = 'Dies ist die Schriftartdatei für reguläre FontAwesome-Symbole (im WOFF2-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-solid-900.ttf'] = 'Dies ist die Schriftartdatei für FontAwesome-Symbole (im TTF-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-solid-900.woff2'] = 'Dies ist die Schriftartdatei für FontAwesome-Symbole (im WOFF2-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-v4compatibility.ttf'] = 'Dies ist die Schriftartdatei für die FontAwesome v4-Kompatibilität (im TTF-Format).';
+$string['fontawesomelistfileinfo-fa6free-webfonts-fa-v4compatibility.woff2'] = 'Dies ist die Schriftartdatei für die FontAwesome v4-Kompatibilität (im WOFF2-Format).';
+$string['fontawesomelistmandatorymissing'] = 'Es handelt sich um eine erforderliche Datei, damit FontAwesome funktioniert, sie wurde jedoch nicht ordnungsgemäß hochgeladen. Bitte versuchen Sie erneut die Datei ordnungsgemäß hochzuladen.';
+$string['fontawesomelistmandatoryuploaded'] = 'Es handelt sich um eine erforderliche Datei, damit FontAwesome funktioniert und  wurde erfolgreich hochgeladen.';
+$string['fontawesomelistnote'] = 'Bitte beachten Sie, dass die FontAwesome-Symbole auf der Moodleseite möglicherweise fehlerhaft angezeigt werden, wenn Sie nur einen Teil der erforderlichen Dateien hochladen. Dies kann erst behoben werden, wenn alle erforderlichen Dateien hochgeladen oder alle Dateien wieder entfernt wurden.';
+$string['fontawesomelistoptionalmissing'] = 'Es handelt sich um eine optionale Datei zur Erweiterung des FontAwesome-Iconsets, die jedoch nicht hochgeladen wurde. Das ist in Ordnung, solange Sie es nicht brauchen.';
+$string['fontawesomelistoptionaluploaded'] = 'Es handelt sich um eine optionale Datei zur Erweiterung des FontAwesome-Iconsets und sie wurde erfolgreich hochgeladen.';
+$string['fontawesomelistsetting'] = 'Liste der FontAwesome Dateien';
+$string['fontawesomelistsetting_desc'] = 'Dies ist die Liste der FontAwesome-Dateien, die Sie oben in den Dateibereich „FontAwesome-Dateien“ hochgeladen haben. Alle FontAwesome-Dateien, die für die konfigurierte FontAwesome-Version gültig sind, werden hier aufgelistet. Andere Dateien, die Sie möglicherweise ebenfalls hochgeladen haben, die aber keine gültigen oder benötigten FontAwesome-Dateien sind, werden ignoriert. Die FontAwesome-Dateien werden automatisch zu den Moodleseiten hinzugefügt und wirken sich direkt aus, sobald Sie diese Einstellung speichern.';
+$string['fontawesomeversionfa6free'] = 'Aktualisieren Sie kostenlos auf FontAwesome 6';
+$string['fontawesomeversionnone'] = 'Behalten Sie FontAwesome 4 (wie im Moodle-Kern enthalten)';
+$string['fontawesomeversionsetting'] = 'FontAwesome Version';
+$string['fontawesomeversionsetting_desc'] = 'Der Moodle-Kern wird mit FontAwesome 4-Symbolen ausgeliefert, was in Ordnung ist, allerdings hat sich FontAwesome seitdem weiterentwickelt. Wenn Sie neuere FontAwesome-Symbole verwenden möchten, können Sie dies mit dieser Einstellung tun. Sobald Sie eine andere Version als FontAwesome 4 wählen, erscheinen zusätzliche Einstellungen, in denen Sie neuere FontAwesome-Versionen hochladen können.';
+$string['footertab'] = 'Fußzeile';
+$string['footnoteheading'] = 'Fußnote';
+$string['footnotesetting'] = 'Fußnote';
+$string['footnotesetting_desc'] = 'Was auch immer Sie diesem Textbereich hinzufügen, wird am Ende einer Seite in der Fußzeile (nicht in der schwebenden Fußzeile) auf jeder Seite angezeigt, die die Layouts „Schubladen“, „Spalten2“ oder „Anmeldung“ verwendet. Inhalte in diesem Bereich können beispielsweise das Urheberrecht, die Nutzungsbedingungen oder der Name Ihrer Organisation sein.<br/>Wenn Sie die Fußnote wieder entfernen möchten, leeren Sie einfach den Textbereich.';
+$string['gradebooktitle'] = 'Notenspiegel';
+$string['h5pcontentmaxwidthsetting'] = 'Maximale Breite des H5P-Inhalts';
+$string['h5pcontentmaxwidthsetting_desc'] = 'Mit dieser Einstellung können Sie die Breite der H5P-Inhalte von Moodle ohne manuelle SCSS-Änderungen überschreiben. Diese Breite wird für den H5P-Editor innerhalb der Inhaltsbank verwendet. Es wird für die Breite der H5P-Aktivität verwendet. Standardmäßig verwendet Moodle eine H5P-Inhaltsbank mit einer maximalen Breite von 960px. Sie können andere pixelbasierte Werte wie 1200px eingeben, aber Sie können auch einen prozentbasierten Wert wie 100% oder einen Wert für die Ansichtsfensterbreite wie 90vw eingeben.';
+$string['h5ptab'] = 'H5P';
+$string['helpcontentsetting'] = 'Inhalt der Hilfeseite';
+$string['helpcontentsetting_desc'] = 'In dieser Einstellung können Sie Rich-Text-Inhalte hinzufügen, die auf einer Hilfeseite angezeigt werden.';
+$string['helpdisabled'] = 'Die Hilfeseite ist für diese Website deaktiviert. Hier gibt es nichts zu sehen.';
+$string['helpheading'] = 'Hilfe';
+$string['helplinkpositionboth'] = 'Fügen Sie der Fußnote und dem Fußzeilensymbol (Fragezeichen) einen Link zur Hilfeseite hinzu';
+$string['helplinkpositionfooter'] = 'Fügen Sie dem Fußzeilensymbol (Fragezeichen) einen Link zur Hilfeseite hinzu';
+$string['helplinkpositionfootnote'] = 'Fügen Sie der Fußnote einen Link zur Hilfeseite hinzu';
+$string['helplinkpositionnone'] = 'Zeigt keinen automatischen Link zur Hilfeseite';
+$string['helplinkpositionsetting'] = 'Position des Links zur Hilfeseite';
+$string['helplinkpositionsetting_desc'] = 'In dieser Einstellung können Sie konfigurieren, ob automatisch ein Link zur Hilfeseite zur Moodleseite hinzugefügt werden soll. Wenn Sie nicht möchten, dass ein Link automatisch angezeigt wird, können Sie von jeder Stelle in Moodle manuell einen Link zu {$a->url} hinzufügen.';
+$string['helppagetitledefault'] = 'Hilfe';
+$string['helppagetitlesetting'] = 'Titel der Hilfeseite';
+$string['helppagetitlesetting_desc'] = 'In dieser Einstellung können Sie den Titel der Hilfeseite festlegen. Dieser Text wird auch als Linktext zur Hilfeseite verwendet, wenn Sie die Position des Hilfeseiten-Links entsprechend konfigurieren.';
+$string['hideloginform'] = 'Anmeldeformular ausblenden';
+$string['hideloginform_desc'] = '<b>SEIEN SIE VORSICHTIG! Wenn Sie diese Funktion aktivieren, wird das Anmeldeformular entfernt.</b> Blenden Sie das Anmeldeformular nur aus, wenn Sie eine andere Anmeldemethode wie Google Login verwenden und niemals das Anmeldeformular verwenden müssen. Zur Wiederherstellung müssen Sie die Datei /moodle/theme/learnr/templates/core/loginform.mustache entfernen. Wenn Sie diese Datei löschen, wird das Anmeldeformular wieder angezeigt, falls Sie sich vollständig ausgesperrt haben.';
+$string['hidenodesprimarynavigationsetting'] = 'Verzweigungen in der Primärnavigation ausblenden';
+$string['hidenodesprimarynavigationsetting_desc'] = 'Mit dieser Einstellung können Sie eine oder mehrere Verzweigungen aus der Primärnavigation ausblenden.';
+$string['iconnavbartab'] = 'Navigationssymbole';
+$string['iconnavheading'] = 'Navigationssymbole';
+$string['iconnavinfo'] = 'Navigationssymbole für das Dashboard';
+$string['iconnavinfo_desc'] = 'Legen Sie Symboltasten zur Navigation auf der Website an. Diese Symboltasten erscheinen im Dashboard ganz oben.';
+$string['imprintcontentsetting'] = 'Inhalt des Impressums';
+$string['imprintcontentsetting_desc'] = 'In dieser Einstellung können Sie Rich-Text-Inhalte hinzufügen, die auf der Impressumseite angezeigt werden.';
+$string['imprintdisabled'] = 'Das Impressum ist für diese Site deaktiviert. Hier gibt es nichts zu sehen.';
+$string['imprintheading'] = 'Impressum';
+$string['imprintlinkpositionboth'] = 'Fügen Sie einen Link zur Impressumsseite zur Fußnote und zum Fußzeilensymbol (Fragezeichen) hinzu';
+$string['imprintlinkpositionfooter'] = 'Fügen Sie dem Fußzeilensymbol (Fragezeichen) einen Link zur Impressumsseite hinzu';
+$string['imprintlinkpositionfootnote'] = 'Fügen Sie der Fußnote einen Link zur Impressumsseite hinzu';
+$string['imprintlinkpositionnone'] = 'Es wird nicht automatisch ein Link zur Impressumsseite angezeigt';
+$string['imprintlinkpositionsetting'] = 'Position des Links für die Impressumsseite';
+$string['imprintlinkpositionsetting_desc'] = 'In dieser Einstellung können Sie konfigurieren, ob automatisch ein Link zur Impressumsseite zur Moodleseite hinzugefügt werden soll.  Wenn Sie nicht möchten, dass ein Link automatisch angezeigt wird, können Sie von überall in Moodle manuell einen Link zu {$a->url} hinzufügen.';
+$string['imprintpagetitledefault'] = 'Impressum';
+$string['imprintpagetitlesetting'] = 'Titel der Impressumsseite';
+$string['imprintpagetitlesetting_desc'] = 'In dieser Einstellung können Sie den Titel der Impressumseite festlegen.  Dieser Text wird auch als Linktext zur Impressumsseite verwendet, wenn Sie die Position des Impressumslinks entsprechend konfigurieren.';
+$string['infobannerbsclasssetting'] = 'Infobanner {$a->no} Bootstrap-Class';
+$string['infobannerbsclasssetting_desc'] = 'Mit dieser Einstellung können Sie den Bootstrapstil auswählen, mit dem das Infobanner {$a->no} angezeigt werden soll.  Wenn Sie die Option „Keine Bootstrap-Farbe“ wählen, wird das Infobanner ohne eine bestimmte Bootstrapfarbe ausgegeben, was Ihnen die Freiheit gibt, das Banner im Rich-Text-Editor selbst zu gestalten.';
+$string['infobannerclose'] = 'Schließen';
+$string['infobannercontentsetting'] = 'Inhalt des Infobanners {$a->no}';
+$string['infobannercontentsetting_desc'] = 'Hier geben Sie die Informationen ein, die im Infobanner {$a->no} angezeigt werden sollen.';
+$string['infobannerdismissconfirm'] = 'Möchten Sie die Sichtbarkeit des Infobanners {$a->no} wirklich zurücksetzen und es allen Nutzer/innen, die es bereits abgelehnt haben, erneut anzeigen?';
+$string['infobannerdismissfail'] = 'Das Zurücksetzen der Sichtbarkeit des Infobanners {$a->no} ist für mindestens eine Person fehlgeschlagen';
+$string['infobannerdismissiblesetting'] = 'Infobanner {$a->no} kann abgewiesen werden';
+$string['infobannerdismissiblesetting_desc'] = 'Mit dieser Einstellung können Sie das Infobanner {$a->no} ausblenden.  Wenn die Person auf die Taste X im Infobanner klickt, wird das Infobanner für diese Person dauerhaft ausgeblendet.  Die Sichtbarkeit wird nicht automatisch zurückgesetzt, wenn Sie den Inhalt des Infobanners ändern.  Wenn Sie die Sichtbarkeit des Infobanners zurücksetzen möchten, klicken Sie unten auf die Schaltfläche "Sichtbarkeit zurücksetzen".';
+$string['infobannerdismissreset'] = 'Sichtbarkeit des verworfenen Infobanners zurücksetzen';
+$string['infobannerdismissresetbutton'] = 'Sichtbarkeit des Infobanners {$a->no} zurücksetzen';
+$string['infobannerdismisssuccess'] = 'Die Sichtbarkeit des Infobanners {$a->no} wurde zurückgesetzt';
+$string['infobannerenabledsetting'] = 'Infobanner {$a->no} aktivieren';
+$string['infobannerenabledsetting_desc'] = 'Mit dieser Einstellung können Sie den Infobanner {$a->no} aktivieren.';
+$string['infobannerendsetting'] = 'Infobanner {$a->no} Endzeit';
+$string['infobannerendsetting_desc'] = 'Mit dieser Einstellung können Sie festlegen, bis wann der Infobanner {$a->no} angezeigt werden soll.  Die konfigurierte Zeit wird als Serverzeit interpretiert, nicht als Nutzerzeit.';
+$string['infobannerheading'] = 'Infobanner {$a->no}';
+$string['infobannermodeperpetual'] = 'Dauerhaft';
+$string['infobannermodesetting'] = 'Infobanner {$a->no} Anzeigemodus';
+$string['infobannermodesetting_desc'] = 'Mit dieser Einstellung können Sie festlegen, ob der Infobanner {$a->no} ein Dauerbanner (das immer angezeigt wird) oder ein zeitgesteuertes Banner (das nur innerhalb des konfigurierten Zeitintervalls angezeigt wird) sein soll.';
+$string['infobannermodetimebased'] = 'Zeitgesteuert';
+$string['infobannerordersetting'] = 'Infobanner {$a->no} Reihenfolge';
+$string['infobannerordersetting_desc'] = 'Mit dieser Einstellung legen Sie die Reihenfolge des Infobanners {$a->no} fest.  Standardmäßig sind die Infobanner von oben nach unten angeordnet, so wie Sie sie auf dieser Einstellungsseite hier sehen.  Sie können mit dieser Einstellung jedoch entscheiden, eine andere Reihenfolge  zuzuweisen.  Wenn Sie zwei oder mehr Informationsbannern dieselbe Bestellposition zuweisen, werden diese erneut entsprechend der Reihenfolge auf dieser Einstellungsseite geordnet.';
+$string['infobannerpageloginpage'] = 'Loginseite';
+$string['infobannerpagessetting'] = 'Seitenlayouts zur Anzeige des Infobanners {$a->no} auf';
+$string['infobannerpagessetting_desc'] = 'Mit dieser Einstellung können Sie die Seitenlayouts auswählen, auf denen der Infobanner {$a->no} angezeigt werden soll.';
+$string['infobannerstartsetting'] = 'Infobanner {$a->no} Startzeit';
+$string['infobannerstartsetting_desc'] = 'Mit dieser Einstellung können Sie festlegen, ab wann der Infobanner {$a->no} angezeigt werden soll.  Die konfigurierte Zeit wird als Serverzeit interpretiert, nicht als Benutzerzeit.';
+$string['infobannertab'] = 'Infobanner';
+$string['javascriptdisabledhint'] = 'Hinweis zur Deaktivierung von JavaScript';
+$string['javascriptdisabledhint_desc'] = 'Mit dieser Einstellung erscheint oben auf der Moodle-Seite ein Hinweis, wenn JavaScript deaktiviert ist. Dies ist besonders hilfreich, da mehrere Moodlefunktionen ohne JavaScript nicht funktionieren.';
+$string['javascriptdisabledhinttext'] = 'JavaScript ist in Ihrem Browser deaktiviert.<br />Viele Funktionen von Moodle können nicht verwendet werden oder scheinen fehlerhaft zu sein.<br />Bitte aktivieren Sie JavaScript für das vollständige Moodleerlebnis.';
+$string['javascriptheading'] = 'JavaScript';
+$string['latestcourses'] = 'Aktuelle Kurse';
+$string['learnr:configure'] = 'Um das Theme als Nicht-Administrator konfigurieren zu können';
+$string['learnr:editregioncontentlower'] = 'Um den unteren Inhalt-Blockbereich  bearbeiten zu können';
+$string['learnr:editregioncontentupper'] = 'Um den oberen Inhalt-Blockbereich bearbeiten zu können';
+$string['learnr:editregionfootercenter'] = 'Um den Fuß-Blockbereich (mitte) bearbeiten zu können';
+$string['learnr:editregionfooterleft'] = 'Um den Fuß-Blockbereich (links) bearbeiten zu können';
+$string['learnr:editregionfooterright'] = 'Um den Fuß-Blockbereich (rechts) bearbeiten zu können';
+$string['learnr:editregionheader'] = 'Um den Kopf-Blockbereich bearbeiten zu können';
+$string['learnr:editregionoffcanvascenter'] = 'Um den Off-Canvas-Blockbereich (mitte) bearbeiten zu können';
+$string['learnr:editregionoffcanvasleft'] = 'Um den Off-Canvas-Blockbereich (links) bearbeiten zu können';
+$string['learnr:editregionoffcanvasright'] = 'Um den Off-Canvas-Blockbereich (rechts) bearbeiten zu können';
+$string['learnr:editregionoutsidebottom'] = 'Um den Außen-Blockbereich (unten) bearbeiten zu können';
+$string['learnr:editregionoutsideleft'] = 'Um den Außen-Blockbereich (links) bearbeiten zu können';
+$string['learnr:editregionoutsideright'] = 'Um den Außen-Blockbereich (rechts) bearbeiten zu können';
+$string['learnr:editregionoutsidetop'] = 'Um den Außen-Blockbereich (oben) bearbeiten zu können';
+$string['learnr:viewhintcourseselfenrol'] = 'Um einen Hinweis zur uneingeschränkten Selbsteinschreibung in einem sichtbaren Kurs sehen zu können.';
+$string['learnr:viewhintinhiddencourse'] = 'Um einen Hinweis in einem versteckten Kurs sehen zu können.';
+$string['learnr:viewregioncontentlower'] = 'Um den Inhalt-Blockbereich (unten) sehen zu können';
+$string['learnr:viewregioncontentupper'] = 'Um den Inhalt-Blockbereich (oben) sehen zu können';
+$string['learnr:viewregionfootercenter'] = 'Um den Fuß-Blockbereich (mitte) sehen zu können';
+$string['learnr:viewregionfooterleft'] = 'Um den Fuß-Blockbereich (links) sehen zu können';
+$string['learnr:viewregionfooterright'] = 'Um den Fuß-Blockbereich (rechts) sehen zu können';
+$string['learnr:viewregionheader'] = 'Um den Kopf-Blockbereich sehen zu können';
+$string['learnr:viewregionoffcanvascenter'] = 'Um den Off-Canvas-Blockbereich (mitte) sehen zu können';
+$string['learnr:viewregionoffcanvasleft'] = 'Um den Off-Canvas-Blockbereich (links) sehen zu können';
+$string['learnr:viewregionoffcanvasright'] = 'Um den Off-Canvas-Blockbereich (rechts) sehen zu können';
+$string['learnr:viewregionoutsidebottom'] = 'Um den Außen-Blockbereich (unten) sehen zu können';
+$string['learnr:viewregionoutsideleft'] = 'Um den Außen-Blockbereich (links) sehen zu können';
+$string['learnr:viewregionoutsideright'] = 'Um den Außen-Blockbereich (rechts) sehen zu können';
+$string['learnr:viewregionoutsidetop'] = 'Um den Außen-Blockbereich (oben) sehen zu können';
+$string['loginbackgroundimage'] = 'Hintergrundbilder der Anmeldeseite';
+$string['loginbackgroundimage_desc'] = 'Die Bilder, die als Hintergrund der Anmeldeseite angezeigt werden sollen.  Eines dieser Bilder wird zufällig ausgewählt und angezeigt, wenn der Benutzer die Anmeldeseite besucht.  Bitte achten Sie darauf, im Dateinamen keine Nicht-ASCII-Zeichen zu verwenden, wenn Sie Text für Anmeldehintergrundbilder anzeigen möchten.';
+$string['loginbackgroundimagesheading'] = 'Hintergrundbilder der Anmeldeseite';
+$string['loginbackgroundimagetextsetting'] = 'Anzeigetext für Login-Hintergrundbilder';
+$string['loginbackgroundimagetextsetting_desc'] = 'Mit dieser optionalen Einstellung können Sie Text, z. B. einen Copyright-Hinweis, zu Ihren hochgeladenen Hintergrundbildern hinzufügen. Dieser Text wird oben in der Fußzeile der Anmeldeseite angezeigt. Aus Platzgründen wird es jedoch nur auf größeren Bildschirmen angezeigt.<br/>
+Jede Zeile besteht aus der Dateikennung (dem Dateinamen), dem anzuzeigenden Text und der Textfarbe, getrennt durch ein Pipe-Zeichen.  Jede Deklaration muss in eine neue Zeile geschrieben werden.  <br/>
+Zum Beispiel:<br/>
+background-image-1.jpg|Copyright: CC0|dark<br/>
+Als Textfarbe können Sie die Werte „dunkel“ oder „hell“ verwenden.<br />
+Sie können Texte für eine beliebige Anzahl Ihrer hochgeladenen Login-Hintergrundbilder deklarieren. Die Texte werden nur zu den Bildern hinzugefügt, deren Dateiname mit der in dieser Einstellung angegebenen Kennung übereinstimmt.';
+$string['loginformheading'] = 'Anmeldeformular';
+$string['loginformpositionsetting'] = 'Position des Anmeldeformulars';
+$string['loginformpositionsetting_center'] = 'Zentriert';
+$string['loginformpositionsetting_desc'] = 'Mit dieser Einstellung können Sie das Anmeldeformular optimieren, um es an eine größere Auswahl an Hintergrundbildern anzupassen.  Standardmäßig wird das Anmeldeformular zentriert auf der Anmeldeseite angezeigt.  Alternativ können Sie es auf der Anmeldeseite nach links oder rechts verschieben, um andere Teile des Hintergrundbilds durchscheinen zu lassen.  Selbstverständlich können Sie diese Einstellung auch ändern, wenn überhaupt keine Hintergrundbilder hochgeladen werden.';
+$string['loginformpositionsetting_left'] = 'Linksbündig';
+$string['loginformpositionsetting_right'] = 'Rechtsbündig';
+$string['loginformtransparencysetting'] = 'Transparenz des Anmeldeformulars';
+$string['loginformtransparencysetting_desc'] = 'Mit dieser Einstellung können Sie das Anmeldeformular leicht transparent machen, um das Hintergrundbild noch stärker durchscheinen zu lassen.';
+$string['loginpagetab'] = 'Loginseite';
+$string['logocompactsetting'] = 'Kompaktes Logo';
+$string['logocompactsetting_desc'] = 'Hier können Sie eine kompakte Version desselben Logos wie oben hochladen, beispielsweise ein Emblem, ein Schild oder ein Symbol.  Dieses Bild wird insbesondere in der Navigationsleiste oben auf jeder Moodleseite verwendet.  Das Bild sollte auch bei kleinen Größen klar sein.';
+$string['logosetting'] = 'Logo';
+$string['logosetting_desc'] = 'Hier können Sie ein vollwertiges Logo hochladen, das als Dekoration verwendet werden soll.  Dieses Bild wird insbesondere auf der Anmeldeseite verwendet.  Dieses Bild kann eine hohe Auflösung haben, da es für die Verwendung verkleinert wird.';
+$string['logosheading'] = 'Logos';
+$string['logosheading_desc'] = 'Bitte beachten Sie: LearnR verfügt über einen eigenen Logo-Upload und verwendet nicht das Logo aus der <a href="{$a}">Logo-Einstellung von Moodle Core</a>.<br />LearnR ermöglicht Ihnen insbesondere das Hochladen weiterer Bildformate. Moodle Core ermöglicht und erlaubt Ihnen, die hochgeladenen Logos innerhalb seiner Varianten zu überschreiben.';
+$string['maintenancecontentsetting'] = 'Inhalt der Wartungsinformationsseite';
+$string['maintenancecontentsetting_desc'] = 'In dieser Einstellung können Sie Rich-Text-Inhalte hinzufügen, die auf einer Wartungsinformationsseite angezeigt werden (die nicht mit der integrierten Moodle-Wartungsmodusseite identisch ist).';
+$string['maintenancedisabled'] = 'Die Wartungsinformationsseite ist für diese Site deaktiviert.  Hier gibt es nichts zu sehen.';
+$string['maintenanceheading'] = 'Wartung';
+$string['maintenancelinkpositionboth'] = 'Fügen Sie der Fußnote und dem Fußzeilensymbol (Fragezeichen) einen Link zur Wartungsinformationsseite hinzu';
+$string['maintenancelinkpositionfooter'] = 'Fügen Sie dem Fußzeilensymbol (Fragezeichen) einen Link zur Wartungsinformationsseite hinzu';
+$string['maintenancelinkpositionfootnote'] = 'Fügen Sie der Fußnote einen Link zur Wartungsinformationsseite hinzu';
+$string['maintenancelinkpositionnone'] = 'Zeigt nicht automatisch einen Link zur Wartungsinformationsseite an';
+$string['marketingurltarget'] = 'Linkziel';
+$string['marketingurltargetdesc'] = 'Wählen Sie, wie der Link im Browser geöffnet werden soll';
+$string['marketingurltargetnew'] = 'Neue Seite';
+$string['marketingurltargetparent'] = 'Übergeordneter Frame';
+$string['marketingurltargetself'] = 'Aktuelles Fenster';
+$string['myprogresspercentage'] = '% abgeschlossen';
+$string['navicon'] = 'Icon';
+$string['navicon1'] = 'Symbol 1';
+$string['navicon2'] = 'Symbol 2';
+$string['navicon3'] = 'Symbol 3';
+$string['navicon4'] = 'Symbol 4';
+$string['navicon5'] = 'Symbol 5';
+$string['navicon6'] = 'Symbol 6';
+$string['navicon7'] = 'Symbol 7';
+$string['navicon8'] = 'Symbol 8';
+$string['naviconbuttontext'] = 'Linktext';
+$string['naviconbuttontextdesc'] = 'Dieser Text erscheint unter dem Icon.';
+$string['naviconbuttonurl'] = 'Link-URL';
+$string['naviconbuttonurldesc'] = 'Verlinkte URL, auf die die Symboltaste weiterleiten soll. Sie können überall hin verlinken, einschließlich externer Websites. Geben Sie einfach die vollständige URL ein. Wenn sich Ihr Moodle in einem Unterverzeichnis befindet, funktioniert die Standard-URL nicht. Passen Sie bitte die URL entsprechend an, z.B.: Wenn Ihr Unterverzeichnis „moodle“ wäre, müsste die URL in /moodle/my/ geändert werden.';
+$string['navicondesc'] = 'Name des Icons, das Sie verwenden möchten. Eine Liste finden Sie <a href="https://fontawesome.com/v4.7.0/icons/" target="_new">hier</a>.  Geben Sie die Bezeichnung ein, die nach "fa-" folgt, z.B "star".';
+$string['nomycourses'] = 'Sie haben keine Einschreibungen.';
+$string['pluginname'] = 'LearnR';
+$string['privacy:metadata'] = 'Das Design LearnR speichert keine personenbezogenen Daten.';
+$string['sections-boost'] = 'Boost standard';
+$string['sections-learnr'] = 'LearnR Stil';
+$string['sectionstyle'] = 'Stilauswahl für Kursbereiche';
+$string['sectionstyle_desc'] = 'Wählen Sie einen Stil für die Kursbereiche.';
+$string['showcourseindexnav'] = 'Kursindex anzeigen';
+$string['showcourseindexnav_desc'] = 'Kursindex-Leiste anzeigen oder verbergen';
+$string['showhintcourseselfenrolstartcurrently'] = 'Dieser Kurs ist derzeit für jedermann sichtbar und es ist eine <strong>Selbsteinschreibung ohne Einschreibeschlüssel</strong> möglich.';
+$string['showhintcourseselfenrolstartfuture'] = 'Dieser Kurs ist derzeit für jedermann sichtbar und die <strong>Selbsteinschreibung ohne Einschreibeschlüssel</strong>  wird zukünftig möglich sein.';
+$string['showlatestcourses'] = '"Zuletzt besucht" Drop Down anzeigen';
+$string['showlatestcourses_desc'] = 'Dies zeigt die sieben zuletzt von einer Person besuchten Kurse in einem Drop Down Menü rechts vom Kurstitel. Im Augenblick ist das kein Bestandteil der Hauptnavigation sondern ein Navigationselement auf den Kursseiten.';
+$string['showprogressbar'] = 'Kursfortschritt anzeigen';
+$string['showprogressbar_desc'] = 'Fortschrittsbalken für Teilnehmer/innen oben auf jeder Kurshauptseite anzeigen';
+$string['sliderinfo'] = 'Spezial-Slider Icon-Schaltfläche';
+$string['sliderinfodesc'] = 'Diese Schaltfläche zeigt/versteckt eine spezielle Textbox, die aus der Icon-Navigationsleiste herausfährt. Dies ist ideal, um Kurse zu bewerben, Hilfe anzubieten oder erforderliche Mitarbeiterschulungen aufzulisten.';
+$string['slidetextbox'] = 'Slide Textbox';
+$string['slidetextbox_desc'] = 'Der Inhalt dieser Textbox wird angezeigt, wenn die Slide-Schaltfläche gedrückt wird.';
+$string['trimsummary'] = 'Kursbeschreibung kürzen';
+$string['trimsummary_desc'] = 'Geben Sie eine Zahl ein, um die Länge der Kursbeschreibung festzulegen. Die Zahl steht für die Anzahl der angezeigten Zeichen.';
+$string['trimtitle'] = 'Kurstitel kürzen';
+$string['trimtitle_desc'] = 'Geben Sie eine Zahl ein, um die Titellänge festzulegen. Die Zahl steht für die Anzahl der angezeigten Zeichen.';
+$string['viewallcourses'] = 'Alle Kurse anzeigen';

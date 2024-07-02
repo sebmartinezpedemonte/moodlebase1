@@ -1,0 +1,274 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'tool_lp', language 'he', version '4.1'.
+ *
+ * @package     tool_lp
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['actions'] = 'פעולות';
+$string['activities'] = 'פעילויות';
+$string['addcohorts'] = 'הוספת קבוצה־מערכתית';
+$string['addcohortstosync'] = 'הוספת קבוצה־מערכתית לסינכרון';
+$string['addcompetency'] = 'הוספת מיומנות';
+$string['addcoursecompetencies'] = 'הוספת מיומנויות לקורס';
+$string['addcrossreferencedcompetency'] = 'הוספת קישור למיומנות';
+$string['addnewcompetency'] = 'הוספת מיומנות חדשה';
+$string['addnewcompetencyframework'] = 'הוספת אוסף־מיומנויות';
+$string['addnewplan'] = 'הוספת תוכנית־לימוד חדשה';
+$string['addnewtemplate'] = 'הוספת תבנית תוכנית־לימוד חדשה';
+$string['addnewuserevidence'] = 'הוספת ראיה חדשה';
+$string['addtemplatecompetencies'] = 'הוספת מיומנויות לתבנית תוכנית־לימוד';
+$string['aisrequired'] = 'נדרש \'{$a}\'';
+$string['aplanswerecreated'] = 'תוכנית־הלימוד \'{$a}\' נוצרה.';
+$string['aplanswerecreatedmoremayrequiresync'] = '{$a} תוכניות־לימוד נוצרו; נוספות יווצרו בעת הסינכרון הקרוב.';
+$string['assigncohorts'] = 'שיוך קבוצות מערכתיות';
+$string['averageproficiencyrate'] = 'ממוצע דרוג הבקיאות בהשלמת תבנית תוכנית־הלימוד הוא {$a}';
+$string['cancelreviewrequest'] = 'ביטול בקשת סקירה';
+$string['cannotaddrules'] = 'לא ניתן להגדיר את המיומנות.';
+$string['category'] = 'קטגוריה';
+$string['chooserating'] = 'בחירת דרוג...';
+$string['cohortssyncedtotemplate'] = 'קבוצות מערכתיות סונכרנו לתבניות תוכניות־הלימוד';
+$string['competenciesforframework'] = 'מיומנויות עבור {$a}';
+$string['competenciesmostoftennotproficient'] = 'מיומנויות בהן לא הושגה בקיאות בתוכנית־הלימוד';
+$string['competenciesmostoftennotproficientincourse'] = 'מיומנויות בהן אינכם בקיאים בקורס זה';
+$string['competencycannotbedeleted'] = 'המיומנות \'{$a}\' לא ניתנת למחיקה';
+$string['competencycreated'] = 'מיומנות נוצרה';
+$string['competencycrossreferencedcompetencies'] = 'מקושר למיומנויות {$a}';
+$string['competencyframework'] = 'אוסף־מיומנויות';
+$string['competencyframeworkcreated'] = 'אוסף־מיומנויות נוצר.';
+$string['competencyframeworkname'] = 'שם';
+$string['competencyframeworkroot'] = 'עצמאי (רמה מיומנות ראשית)';
+$string['competencyframeworks'] = 'ניהול אוספי־מיומנויות';
+$string['competencyframeworksrepository'] = 'מאגר תשתיות למיומנויות';
+$string['competencyframeworkupdated'] = 'אוסף־מיומנויות עודכן.';
+$string['competencyoutcome_complete'] = 'מסומן כ"הושלם"';
+$string['competencyoutcome_evidence'] = 'צורפה ראיה';
+$string['competencyoutcome_none'] = 'לא־מוגדר';
+$string['competencyoutcome_recommend'] = 'המלצה על מיומנות';
+$string['competencypicker'] = 'בחירת מיומנות';
+$string['competencyrule'] = 'תנאי להוכחת מיומנות';
+$string['competencyupdated'] = 'המיומנות עודכנה';
+$string['completeplan'] = 'השלמת תוכנית־לימוד זו';
+$string['configurecoursecompetencysettings'] = 'הגדרת מיומנויות בקורס';
+$string['configurescale'] = 'הגדרת מדרגות־הערכה';
+$string['coursecompetencies'] = 'מיומנויות הקורס';
+$string['coursecompetencyratingsarenotpushedtouserplans'] = 'השלמת מיומנויות בקורס זה לא מתעדכנות בתוכניות־הלימוד';
+$string['coursecompetencyratingsarepushedtouserplans'] = 'מצב רכישת מיומנות כתוצאה מהשלמת פעילות בקורס, מתעדכן באופן מידי בתוכניות־הלימוד.';
+$string['coursesusingthiscompetency'] = 'קורסים המקושרים למיומנות זאת :-)';
+$string['createlearningplans'] = 'יצירת תוכניות־לימוד';
+$string['createplans'] = 'יצירת תוכניות־לימוד';
+$string['crossreferencedcompetencies'] = 'מקושר למיומנויות';
+$string['default'] = 'בררת־מחדל';
+$string['deletecompetency'] = 'מחיקת מיומנות \'{$a}\'?';
+$string['deletecompetencyframework'] = 'האם למחוק את אוסף־המיומנויות \'{$a}\'?';
+$string['deleteplan'] = 'מחיקת תוכנית־הלימוד \'{$a}\'?';
+$string['deleteplans'] = 'מחיקת תוכניות־הלימוד';
+$string['deletetemplate'] = 'מחיקת תבנית תוכנית־הלימוד \'{$a}\'?';
+$string['deletethisplan'] = 'מחיקת תוכנית־הלימוד';
+$string['deletethisuserevidence'] = 'מחיקת ראיה לבקיאות';
+$string['deleteuserevidence'] = 'מחיקת ראיה לבקיאות המבוססת על תוכנית הלימודים הקודמת \'{$a}\'?';
+$string['description'] = 'תאור';
+$string['duedate'] = 'עד לתאריך';
+$string['duedate_help'] = 'התאריך בו יש להשלים את תוכנית־הלימוד.';
+$string['editcompetency'] = 'עריכת מיומנות';
+$string['editcompetencyframework'] = 'עריכת אוסף־מיומנויות';
+$string['editplan'] = 'עריכת תוכנית־לימוד';
+$string['editrating'] = 'עריכת דרוג';
+$string['edittemplate'] = 'עריכת תבנית תוכנית־לימוד';
+$string['editthisplan'] = 'עריכת תוכנית־לימוד זו';
+$string['editthisuserevidence'] = 'עריכת ראיה לבקיאות זו';
+$string['edituserevidence'] = 'עריכת ראיה לבקיאות';
+$string['evidence'] = 'ראיה לבקיאות';
+$string['filterbyactivity'] = 'סינון מיומנויות לפי פעילות';
+$string['findcourses'] = 'חיפוש קורסים';
+$string['frameworkcannotbedeleted'] = 'אוסף־מיומנויות \'{$a}\' לא ניתן למחיקה';
+$string['hidden'] = 'מוסתר';
+$string['hiddenhint'] = '(מוסתר)';
+$string['idnumber'] = 'קוד מספרי';
+$string['inheritfromframework'] = 'ירושה מאוסף־מיומנויות (בררת־מחדל)';
+$string['itemstoadd'] = 'פריטים להוספה';
+$string['jumptocompetency'] = 'בחירת מיומנות';
+$string['jumptouser'] = 'בחירת משתמש';
+$string['learningplancompetencies'] = 'מיומנויות תוכנית־הלימוד';
+$string['learningplans'] = 'תוכניות־לימוד';
+$string['levela'] = 'רמה {$a}';
+$string['linkcompetencies'] = 'קישור למיומנויות';
+$string['linkcompetency'] = 'קישור למיומנות';
+$string['linkedcompetencies'] = 'מיומנויות מקושרות';
+$string['linkedcourses'] = 'קורסים מקושרים';
+$string['linkedcourseslist'] = 'קורסים מקושרים:';
+$string['listcompetencyframeworkscaption'] = 'רשימת אוסף־מיומנויות';
+$string['listofevidence'] = 'רשימת ראיות';
+$string['listplanscaption'] = 'רשימת תוכנית־לימוד';
+$string['listtemplatescaption'] = 'רשימת תבניות תוכנית־לימוד';
+$string['loading'] = 'מתבצעה...';
+$string['locatecompetency'] = 'חיפוש מיומנות';
+$string['managecompetenciesandframeworks'] = 'ניהול מיומנויות ואוספי־מיומנויות';
+$string['modcompetencies'] = 'מיומנויות בקורס';
+$string['modcompetencies_help'] = 'מיומנויות המקושרות לפעילויות בקורס';
+$string['move'] = 'העברה';
+$string['movecompetency'] = 'העברת מיומנות';
+$string['movecompetencyafter'] = 'העברת מיומנות אחר \'{$a}\'';
+$string['movecompetencyframework'] = 'העברת אוסף־מיומנויות';
+$string['moveframeworkafter'] = 'העברת אוסף־מיומנויות אחרי \'{$a}\'';
+$string['movetonewparent'] = 'העברה';
+$string['myplans'] = 'תוכניות הלימודים שלי';
+$string['nfiles'] = '{$a} קבצים';
+$string['noactivities'] = 'לא מקושר לאף פעילות בקורס';
+$string['nocompetencies'] = 'טרם נוצרה מיומנות כלשהי באוסף־מיומנויות זה.';
+$string['nocompetenciesinactivity'] = 'לא שוייכו מיומנויות לפעילות זו';
+$string['nocompetenciesincourse'] = 'בקורס זה לא קיימות פעילויות אשר קושרו למיומנויות כלשהן.';
+$string['nocompetenciesinevidence'] = 'לא קושרו מיומנויות לראית בקיאות זו.';
+$string['nocompetenciesinlearningplan'] = 'לא קושרו מיומנויות לתוכנית־לימוד זו.';
+$string['nocompetenciesinlist'] = 'לא נבחרו מיומנויות';
+$string['nocompetenciesintemplate'] = 'לא קושרו מיומנויות לתבנית תוכנית־לימוד זו.';
+$string['nocompetencyframeworks'] = 'עדיין לא נוצרו אוספי־מיומנויות';
+$string['nocompetencyselected'] = '<= יש לבחור מיומנות מהרשימה';
+$string['nocrossreferencedcompetencies'] = 'אף מיומנות לא מקושרת למיומנות זו.';
+$string['noevidence'] = 'טרם צורפה ראיה לבקיאות';
+$string['nofiles'] = 'טרם צורפו קבצים';
+$string['nolinkedcourses'] = 'לא מקושרים קורסים למיומנות זו';
+$string['noparticipants'] = 'טרם צורפו משתתפים.';
+$string['noplanswerecreated'] = 'טרם נוצרו תוכניות־לימוד.';
+$string['notemplates'] = 'טרם נוצרו תבניות לתוכניות־לימוד.';
+$string['nourl'] = 'טרם צורף קישור';
+$string['nouserevidence'] = 'לא נמצאו סימוכין ללימודים קודמים.';
+$string['nouserplans'] = 'טרם נוצרו תוכניות־לימוד.';
+$string['oneplanwascreated'] = 'תוכנית־לימוד נוצרה';
+$string['outcome'] = 'נמדד לפי';
+$string['parentcompetency'] = 'הרמה מעל';
+$string['parentcompetency_edit'] = 'עריכת הרמה מעל';
+$string['path'] = 'נתיב';
+$string['planapprove'] = 'הפכו ל\'פעילה\'';
+$string['plancompleted'] = 'תוכנית־הלימוד הושלמה';
+$string['plancreated'] = 'תוכנית־הלימוד נוצרה';
+$string['plandescription'] = 'תאור';
+$string['planname'] = 'שם';
+$string['plantemplate'] = 'בחירת תבנית תוכנית־לימוד';
+$string['planunapprove'] = 'חזרה למצב טיוטה';
+$string['planupdated'] = 'תוכנית־הלימוד עודכנה';
+$string['pluginname'] = 'תוכניות לימוד';
+$string['points'] = 'נקודות';
+$string['pointsgivenfor'] = 'נקודות אשר ניתנו ל\'{$a}\'';
+$string['proficient'] = 'בקיאות';
+$string['progress'] = 'התקדמות';
+$string['rate'] = 'דרוג';
+$string['ratecomment'] = 'הערות לראיה';
+$string['rating'] = 'דרוג';
+$string['reopenplan'] = 'פתיחה מחדש של תוכנית־לימוד זו';
+$string['requestreview'] = 'בקשת סקירה';
+$string['reviewer'] = 'סוקר/ת';
+$string['reviewstatus'] = 'סקירת מצב';
+$string['savechanges'] = 'שמירת עדכונים';
+$string['scale'] = 'מדרגות־הערכה';
+$string['scalevalue'] = 'ערך המדד';
+$string['search'] = 'חיפוש...';
+$string['selectcohortstosync'] = 'בחירת קבוצה מערכתית לסינכרון';
+$string['selectcompetencymovetarget'] = 'בחירת המיקום אליו תועבר תוכנית הלימודים:';
+$string['selectedcompetency'] = 'המיומנות שנבחרה';
+$string['selectuserstocreateplansfor'] = 'בחירת משתמשים אשר יצורפו לתוכנית־הלימוד';
+$string['sendcompetenciestoreview'] = 'שליחת המיומנויות לסקירה';
+$string['shortname'] = 'שם';
+$string['sitedefault'] = '(בררת־מחדל מערכתית)';
+$string['startreview'] = 'התחלת סקירה';
+$string['state'] = 'מצב';
+$string['status'] = 'מצב';
+$string['stopreview'] = 'סיום סקירה';
+$string['stopsyncingcohort'] = 'הפסקת סינכרון קבוצות מערכתיות';
+$string['taxonomies'] = 'טקסונומיות';
+$string['taxonomy_add_behaviour'] = 'הוספת התנהגות';
+$string['taxonomy_add_competency'] = 'הוספת מיומנות';
+$string['taxonomy_add_concept'] = 'הוספת רעיון';
+$string['taxonomy_add_domain'] = 'הוספת תחום';
+$string['taxonomy_add_indicator'] = 'הוספת מחוון';
+$string['taxonomy_add_level'] = 'הוספת רמה';
+$string['taxonomy_add_outcome'] = 'הוספת מדד';
+$string['taxonomy_add_practice'] = 'הוספת תרגול';
+$string['taxonomy_add_proficiency'] = 'הוספת בקיאות';
+$string['taxonomy_add_skill'] = 'הוספת כישור';
+$string['taxonomy_add_value'] = 'הוספת ערך';
+$string['taxonomy_edit_behaviour'] = 'עריכת התנהגות';
+$string['taxonomy_edit_competency'] = 'עריכת מיומנות';
+$string['taxonomy_edit_concept'] = 'עריכת רעיון';
+$string['taxonomy_edit_domain'] = 'עריכת תחום';
+$string['taxonomy_edit_indicator'] = 'עריכת מחוון';
+$string['taxonomy_edit_level'] = 'עריכת רמה';
+$string['taxonomy_edit_outcome'] = 'עריכת מדד';
+$string['taxonomy_edit_practice'] = 'עריכת תרגול';
+$string['taxonomy_edit_proficiency'] = 'עריכת בקיאות';
+$string['taxonomy_edit_skill'] = 'עריכת כישור';
+$string['taxonomy_edit_value'] = 'עריכת ערך';
+$string['taxonomy_parent_behaviour'] = 'מרכיב בהתנהגות';
+$string['taxonomy_parent_competency'] = 'מרכיב במיומנות';
+$string['taxonomy_parent_concept'] = 'מרכיב ברעיון';
+$string['taxonomy_parent_domain'] = 'מרכיב בתחום';
+$string['taxonomy_parent_indicator'] = 'מרכיב במחוון';
+$string['taxonomy_parent_level'] = 'מרכיב ברמה';
+$string['taxonomy_parent_outcome'] = 'מרכיב במדד';
+$string['taxonomy_parent_practice'] = 'מרכיב בתרגול';
+$string['taxonomy_parent_proficiency'] = 'מרכיב בבקיאות';
+$string['taxonomy_parent_skill'] = 'מרכיב בכישור';
+$string['taxonomy_parent_value'] = 'מרכיב בערך';
+$string['taxonomy_selected_behaviour'] = 'ההתנהגות שנבחרה';
+$string['taxonomy_selected_competency'] = 'המיומנות שנבחרה';
+$string['taxonomy_selected_concept'] = 'הרעיון שנבחר';
+$string['taxonomy_selected_domain'] = 'התחום שנבחר';
+$string['taxonomy_selected_indicator'] = 'המחוון שנבחר';
+$string['taxonomy_selected_level'] = 'הרמה שנבחרה';
+$string['taxonomy_selected_outcome'] = 'המדד שנבחר';
+$string['taxonomy_selected_practice'] = 'התרגול שנבחר';
+$string['taxonomy_selected_proficiency'] = 'הבקיאות שנבחרה';
+$string['taxonomy_selected_skill'] = 'המומחיות שנבחרה';
+$string['taxonomy_selected_value'] = 'הערך שנבחר';
+$string['template'] = 'תבנית תוכנית־לימוד';
+$string['templatebased'] = 'מבוסס תבנית';
+$string['templatecohortnotsyncedwhileduedateispassed'] = 'לא ניתן יהיה לסנכרן קבוצות מערכתיות תאריך ההגשה של התבניות חלף.';
+$string['templatecompetencies'] = 'מיומנויות תבנית תוכנית־לימוד';
+$string['templatecreated'] = 'תבנית לתוכנית־הלימוד נוצרה';
+$string['templatename'] = 'שם';
+$string['templates'] = 'תבניות תוכנית־לימוד';
+$string['templateupdated'] = 'תבנית לתוכנית־הלימוד עודכנה';
+$string['totalrequiredtocomplete'] = 'סך הכל הנדרש להשלמה';
+$string['unlinkcompetencycourse'] = 'האם להסיר קישור מיומנות \'{$a}\' מהקורס?';
+$string['unlinkcompetencyplan'] = 'האם להסיר קישור מיומנות \'{$a}\' מתוכנית־הלימוד?';
+$string['unlinkcompetencytemplate'] = 'הסרת המיומנות \'{$a}\' מתבנית תוכנית־הלימוד?';
+$string['unlinkplanstemplate'] = 'הסרת הקישור בין תוכניות־הלימוד לתבנית שלהם';
+$string['unlinkplantemplate'] = 'הסרת קישור לתבנית תוכנית־הלימוד';
+$string['uponcoursecompletion'] = 'בעת השלמת קורס:';
+$string['uponcoursemodulecompletion'] = 'בעת השלמת פעילות:';
+$string['userevidence'] = 'סימוכין ללימודים קודמים';
+$string['userevidencecreated'] = 'סימוכין ללימודים קודמים נוצרו';
+$string['userevidencedescription'] = 'תאור';
+$string['userevidencefiles'] = 'קבצים';
+$string['userevidencename'] = 'שם';
+$string['userevidencesummary'] = 'תקציר';
+$string['userevidenceupdated'] = 'סימוכין ללימודים קודמים נמחקו';
+$string['userevidenceurl'] = 'קישור';
+$string['viewdetails'] = 'תצוגת מאפיינים';
+$string['visible'] = 'זמין';
+$string['visible_help'] = 'ניתן להסתיר את אוסף־המיומנויות בזמן יצירה, עדכון או שדרוג גרסה.';
+$string['when'] = 'כאשר';
+$string['xcompetencieslinkedoutofy'] = '{$a->x} מתוך {$a->y} מיומנויות מקושרות לקורסים';
+$string['xcompetenciesproficientoutofy'] = 'בקיאות ב {$a->x} מיומנויות מתוך {$a->y}';
+$string['xcompetenciesproficientoutofyincourse'] = 'רכשתם בקיאות ב {$a->x} מתוך {$a->y} המיומנויות בקורס זה.';
+$string['xplanscompletedoutofy'] = '{$a->x} מתוך {$a->y} תוכניות־לימוד אישיות הושלמו עבור תבנית זו';

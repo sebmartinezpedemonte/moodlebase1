@@ -1,0 +1,294 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'moodleoverflow', language 'he', version '4.1'.
+ *
+ * @package     moodleoverflow
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['addanewdiscussion'] = 'הוספת נושא דיון חדש';
+$string['addanewreply'] = 'הוספת תגובה חדשה';
+$string['allowcoursereputation'] = 'סיכום מוניטין בקורס.';
+$string['allownegativereputation'] = 'האם לאפשר מוניטין שלילי?';
+$string['allowratingchange'] = 'לאפשר שינוי דירוג';
+$string['allsubscribe'] = 'רישום כמנוי לכל הפורומים';
+$string['allunsubscribe'] = 'ביטול רישום כמנוי מכל הפורומים';
+$string['areaattachment'] = 'צרופות';
+$string['areapost'] = 'הודעות';
+$string['attachment'] = 'צרופה';
+$string['attachments'] = 'צרופות';
+$string['bynameondate'] = 'על ידי {$a->name} ({$a->rating}) - {$a->date}';
+$string['bynameondatenorating'] = 'על ידי {$a->name} - {$a->date}';
+$string['cannotcreatediscussion'] = 'לא הצלחנו ליצור דיון חדש';
+$string['cannotdeletepost'] = 'לא ניתן למחוק פרסום זה';
+$string['cannotfindparentpost'] = 'לא הצלחנו למצוא את ההורה העליון של הפרסום הזה';
+$string['cannotreply'] = 'אין לך אפשרות להוסיף תגובה לפרסום זה';
+$string['cannottrack'] = 'לא הצלחנו להפסיק לעקוב אחר פורום זה';
+$string['cannotunsubscribe'] = 'לא הצלחנו לבטל את רישומך כמנוי בהפורום זה';
+$string['cannotupdatepost'] = 'לא ניתן לעדכן פרסום זה';
+$string['cleanreadtime'] = 'שעת סימון פרסום ישן בתור נקרא';
+$string['clicktosubscribe'] = 'אינכם רשומים כמינויים לדיון זה. לחצו כאן על מנת להירשם.';
+$string['clicktounsubscribe'] = 'הנכם רשומים כמינויים לדיון זה. לחצו כאן על מנת לבטל רישום.';
+$string['configallowcoursereputation'] = 'האם לאפשר סכימה של המוניטין מכלל הפורומים בקורס הנוכחי?';
+$string['configallowratingchange'] = 'האם המשתמש יכול לשנות את הדירוג שלו?';
+$string['configcleanreadtime'] = 'שעה ביום לניקוי פרסומים מתוך טבלת "נקרא".';
+$string['configmanydiscussions'] = 'מספר מירבי של דיונים להצגה בעמוד של פורום דרוג דיונים';
+$string['configmaxattachments'] = 'ברירת מחדל למספר צרופות מירבי לפרסום.';
+$string['configmaxbytes'] = 'ברירת מחדל לגודל צרופות של כלל הפורומים באתר (מותנה במגבלות קורס והגרות מקומיות אחרות)';
+$string['configmaxeditingtime'] = 'ברירת מחדל של מספר שניות מירבי היא 3600 (שעה).';
+$string['configoldpostdays'] = 'מספר הימים שלאחריו פרסום נחשב כ"נקרא".';
+$string['configreputationnotnegative'] = 'אוסר על המוניטין של המשתמש להיות שלילי.';
+$string['configtrackingtype'] = 'ערך ברירת מחדל עבור מעקב קריאה';
+$string['configtrackmoodleoverflow'] = 'יש לסמן "כן" על מנת לבצע מעקב נקרא/לא נקרא עבור כל משמש.';
+$string['configvotescaledownvote'] = 'באיזו מידה הצבעה שלילית בפרסום מורידה מהמוניטין.';
+$string['configvotescalehelpful'] = 'באיזו מידה סימון הפרסום כעוזר מוסיף למוניטין.';
+$string['configvotescalesolved'] = 'באיזו מידה סימון הפרסום כפתרון מוסיף למוניטין.';
+$string['configvotescaleupvote'] = 'באיזו מידה הצבעה חיובית בפרסום מוסיפה למוניטין.';
+$string['configvotescalevote'] = 'באיזו מידה הצבעה מוסיפה למוניטין.';
+$string['confirmsubscribe'] = 'האם אכן ברצונך לקבל עדכונים מפורום \'{$a}\'?';
+$string['confirmsubscribediscussion'] = 'האם אכן ברצונך לקבל עדכונים מהדיון \'{$a->discussion}\' בפורום \'{$a->moodleoverflow}\'?';
+$string['confirmunsubscribe'] = 'האם אכן ברצונך להפסיק לקבל עדכונים מפורום \'{$a}\'?';
+$string['confirmunsubscribediscussion'] = 'האם אכן ברצונך להפסיק לקבל עדכונים מהדיון \'{$a->discussion}\' בפורום \'{$a->moodleoverflow}\'?';
+$string['couldnotadd'] = 'התרחשה שגיאה ולא הצלחנו להוסיף את הפרסום שלך';
+$string['couldnotdeletereplies'] = 'מתנצלים, לא ניתן למחוק היות ומשתתפים כבר הגיבו לפרסום זה';
+$string['couldnotupdate'] = 'התרחשה שגיאה ולא הצלחנו לעדכו את הפרסום שלך';
+$string['coursewidereputation'] = 'מוניטין רוחבי בקורס?';
+$string['coursewidereputation_help'] = 'אם מסומן על "כן", המוניטין של המשתמש בכל פורומי דירוג הדיונים בקורס זה יסכם.';
+$string['crontask'] = 'עבודות תחזוקה של פורום דרוג דיונים';
+$string['delete'] = 'מחיקה';
+$string['deletesure'] = 'האם למחוק את הפרסום?';
+$string['deletesureplural'] = 'האם למחוק את הפרסום וכלל התגובות?  ({$a} פרסומים)';
+$string['disallowsubscribe'] = 'מינוי לעדכונים לא מאופשר';
+$string['discussionlocked'] = 'דיון זה ננעל ולא ניתן להגיב אליו יותר.';
+$string['discussionname'] = 'כותרת הדיון';
+$string['discussionnownotsubscribed'] = '{$a->name} לא יעודכן על פרסומים חדשים ב \'{$a->discussion}\'  של \'{$a->moodleoverflow}\\';
+$string['discussionnowsubscribed'] = '{$a->name} יעודכן על פרסומים חדשים ב \'{$a->discussion}\'  של \'{$a->moodleoverflow}\\';
+$string['discussions'] = 'דיונים';
+$string['discussionsubscription'] = 'מנוי לעדכון של דיון';
+$string['discussionsubscription_help'] = 'המשמעות של הרשמה לעדכונים בדיון הינה שיתקבלו הודעות על פרסומים חדשים בדיון זה.';
+$string['downvotenotchangeable'] = 'הצבעה שלילית (לא בר שינוי)';
+$string['edit'] = 'עריכה';
+$string['editedby'] = 'בוצעה עריכה על ידי {$a->name} - פרסום מקורי של {$a->date}';
+$string['editedpostupdated'] = 'הפרסום של {$a} עודכן';
+$string['erroremptymessage'] = 'תוכן הפרסום לא יכול להיות ריק.';
+$string['erroremptysubject'] = 'נושא הפרסום לא יכול להיות ריק.';
+$string['errorwhiledelete'] = 'התרחשה טעות בזמן מחיקת רשומה.';
+$string['eventdiscussioncreated'] = 'דיון נוצר';
+$string['eventdiscussiondeleted'] = 'דיון נמחק';
+$string['eventdiscussionsubscriptioncreated'] = 'מנוי לעדכונים של דיון נוצר';
+$string['eventdiscussionsubscriptiondeleted'] = 'מנוי לעדכונים של דיון נמחק';
+$string['eventdiscussionviewed'] = 'הדיון נצפה';
+$string['eventpostcreated'] = 'הפרסום נוצר';
+$string['eventpostdeleted'] = 'הפרסום נמחק';
+$string['eventpostupdated'] = 'הפרסום עודכן';
+$string['eventratingcreated'] = 'הדירוג נוצר';
+$string['eventratingdeleted'] = 'הדירוג נמחק';
+$string['eventratingupdated'] = 'הדירוג עודכן';
+$string['eventreadtrackingdisabled'] = 'מעקב קריאה הושבת';
+$string['eventreadtrackingenabled'] = 'מעקב קריאה הופעל';
+$string['eventsubscriptioncreated'] = 'מנוי לעדכונים נוצר';
+$string['eventsubscriptiondeleted'] = 'המנוי לעדכונים נמחק';
+$string['everyonecannowchoose'] = 'כולם כעת יכולים לבחור להירשם כמנויים לעדכונים בפורום זה';
+$string['everyoneisnowsubscribed'] = 'כעת כולם מנויים לעדכונים מפורום זה';
+$string['everyoneissubscribed'] = 'כולם מנויים לעדכונים מפורום זה';
+$string['forcedreadtracking'] = 'לאפשר';
+$string['generalmoodleoverflows'] = 'פורומים בקורס זה';
+$string['gotoindex'] = 'ניהול העדפות';
+$string['grademaxgradeerror'] = 'הציון המקסימלי צריך להיות מספר חיובי שונה מאפס.';
+$string['gradesreport'] = 'דוח ציונים';
+$string['gradesupdated'] = 'הציונים עודכנו';
+$string['hiddenmoodleoverflowpost'] = 'פרסום מוסתר';
+$string['invaliddiscussionid'] = 'מספר מזהה של הדיון איננו נכון';
+$string['invalidforcesubscribe'] = 'מצב מנוי מאולץ לא תקין';
+$string['invalidmoodleoverflowid'] = 'מספר מזהה של הפורום איננו נכון';
+$string['invalidparentpostid'] = 'מספר מזהה של פרסום האב איננו נכון';
+$string['invalidpostid'] = 'מספר מזהה של פרסום איננו נכון - {$a}';
+$string['invalidratingid'] = 'הדירוג שהוגש איננו הצבעה חיובית או שלילית';
+$string['mailindexlink'] = 'שינוי העדפות הפורום שלך: {$a}';
+$string['manydiscussions'] = 'דיונים בעמוד';
+$string['markallread'] = 'סימון כל הפרסומים בדיון זה כ"נקראו".';
+$string['markdiscussionreadsuccessful'] = 'הדיון סומן כ"נקרא".';
+$string['markhelpful'] = 'סומן בתור "מועיל"';
+$string['markmoodleoverflowreadsuccessful'] = 'כל הפרסומים סומנו כ"נקרא".';
+$string['marknothelpful'] = 'לא מועיל';
+$string['marknotsolved'] = 'ביטול סימון כפתרון';
+$string['markread'] = 'סימון כנקרא';
+$string['markreadfailed'] = 'הפרסום בדיון לא סומן כנקרא';
+$string['marksolved'] = 'סימון כפתרון';
+$string['markunread'] = 'סימון כלא נקרא';
+$string['maxattachments'] = 'מספר מירבי של צרופות';
+$string['maxattachmentsize'] = 'גודל צרופה מירבי';
+$string['maxeditingtime'] = 'זמן מרבי שבמהלכו המפרסם יכול לבצע שינויים בפרסום (שניות)';
+$string['maxmailingtime'] = 'משך זמן עד שליחת דוא"ל';
+$string['message'] = 'הודעה';
+$string['messageprovider:posts'] = 'הודעה על פרסומים חדשים';
+$string['modulename'] = 'פורום דרוג דיונים';
+$string['modulenameplural'] = 'פורומי דירוג דיונים';
+$string['moodleoverflow'] = 'פורום דרוג דיונים';
+$string['moodleoverflow:addinstance'] = 'הוספת מופע פורום דרוג דיונים חדש';
+$string['moodleoverflow:allowforcesubscribe'] = 'מנוי מאולץ מאופשר';
+$string['moodleoverflow:createattachment'] = 'יצירת צרופות';
+$string['moodleoverflow:deleteanypost'] = 'מחיקת פרסומים';
+$string['moodleoverflow:deleteownpost'] = 'מחיקת פרסומים על עצמי';
+$string['moodleoverflow:editanypost'] = 'עריכת פרסומים';
+$string['moodleoverflow:managesubscriptions'] = 'ניהול הרשמה לעדכונים';
+$string['moodleoverflow:marksolved'] = 'סימון הפרסום בתור פתרון';
+$string['moodleoverflow:ratehelpful'] = 'סימון הפרסום כמועיל';
+$string['moodleoverflow:ratepost'] = 'דירוג הפרסום';
+$string['moodleoverflow:replypost'] = 'להגיב בדיון';
+$string['moodleoverflow:startdiscussion'] = 'התחלת דין';
+$string['moodleoverflow:viewdiscussion'] = 'צפייה בדיון';
+$string['moodleoverflowauthorhidden'] = 'מחבר (מוסתר)';
+$string['moodleoverflowfieldset'] = 'אוסף שדות מותאם אישית לדוגמא';
+$string['moodleoverflowname'] = 'שם הפורום דרוג דיונים';
+$string['moodleoverflows'] = 'פורומי דירוג דיונים';
+$string['moodleoverflowsubjecthidden'] = 'נושא (מוסתר)';
+$string['nodiscussions'] = 'טרם נוצרו נושאים לדיון בפורום זה.';
+$string['noguestpost'] = 'מתנצלים, אורחים לא יכולים לפרסם.';
+$string['noguesttracking'] = 'מתנצלים, אורחים לא יכולים להירשם לעדכונים.';
+$string['noonecansubscribenow'] = 'הרשמה לעדכונים כעת איננה מאופשרת';
+$string['nopermissiontosubscribe'] = 'אין לך הרשאות לצפייה ברשימת המנויים';
+$string['nopostmoodleoverflow'] = 'מתנצלים, אין באפשרותך לפרסם בפורום זה.';
+$string['noratemoodleoverflow'] = 'מתנצלים, אין באפשרותך להצביע בפורום זה.';
+$string['noratingchangeallowed'] = 'אין האפשרותך לשנות את הדירוגים שלך.';
+$string['notexists'] = 'הדיון לא קיים יותר';
+$string['notpartofdiscussion'] = 'פרסום זה איננו חלק מדיון!';
+$string['notrackmoodleoverflow'] = 'לא לבצע מעקב אחרי פרסומים שלא נקראו';
+$string['notstartuser'] = 'רק משתמש אשר פתח את הדיון יכול לסמן פרסום כמועיל.';
+$string['notteacher'] = 'רק מורים בקורס יכולים לבצע את זה.';
+$string['noviewdiscussionspermission'] = 'אין לך הרשאות צפייה בדיונים בפורום זה';
+$string['nowallsubscribed'] = 'קיים מנוי לעדכונים מכל הפורומים ב {$a}.';
+$string['nowallunsubscribed'] = 'לא קיים מנוי לעדכונים לכל הפורומים ב {$a}.';
+$string['nownotsubscribed'] = '{$a->name} לא יקבל עדכונים על פרסומים חדשים ב \'{$a->moodleoverflow}\\';
+$string['nownottracking'] = '{$a->name} לא עוקב יותר אחרי \'{$a->moodleoverflow}\'.';
+$string['nowsubscribed'] = '{$a->name} יקבל עדכונים על פרסומים חדשים ב \'{$a->moodleoverflow}\\';
+$string['nowtracking'] = '{$a->name} עוקב כעת אחרי \'{$a->moodleoverflow}\'.';
+$string['oldpostdays'] = 'סמן כנקרא לאחר מספר ימים';
+$string['parent'] = 'הצגת ההורה';
+$string['permalink'] = 'קישור קבוע';
+$string['pluginadministration'] = 'ניהול פורום דרוג דיונים';
+$string['pluginname'] = 'פורום דרוג דיונים';
+$string['postaddedsuccess'] = 'הפרסום התווסף בהצלחה.';
+$string['postaddedtimeleft'] = 'יש לך  {$a}  לבצע עריכה במידה ויש צורך לבצע שינויים.';
+$string['postbyuser'] = '{$a->post} על ידי {$a->user}';
+$string['postincontext'] = 'הצגת פרסום זה בתוך ההקשר';
+$string['postmailinfolink'] = 'זהו העתק של הודעה אשר פורסמה ב {$a->coursename}.
+
+על מנת להגיב יש ללחוץ על הקישור: {$a->replylink}';
+$string['postnotexist'] = 'הפרסום המבוקש איננו קיים.';
+$string['posts'] = 'פרסומים';
+$string['posttomoodleoverflow'] = 'פירסום בפורום';
+$string['postupdated'] = 'הפרסום שלך קיבל הצבעה חיובית';
+$string['preferteachersmark'] = 'מתן העדפה לציונים של מורה הקורס';
+$string['privacy:anonym_discussion_name'] = 'הסתרת שם הדיון';
+$string['privacy:anonym_post_message'] = 'תוכן זה נמחק.';
+$string['privacy:anonym_user_name'] = 'אנונימי';
+$string['privacy:discussionsubscriptionpreference'] = 'ההעדפות שלך למעקב פרסומים בפורום זה: "{$a->preference}"';
+$string['privacy:metadata:moodleoverflow_discuss_subs:discussion'] = 'מזהה הדיון אליו בוצעה הרשמה לעדכונים / ביטול הרשמה לעדכונים.';
+$string['privacy:metadata:moodleoverflow_discuss_subs:preference'] = 'מועד תחילת ההרשמה לעדכונים.';
+$string['privacy:metadata:moodleoverflow_discuss_subs:userid'] = 'מזהה המשתמש אשר ביצע שינוי בהגדרות ההרשמה לעדכונים.';
+$string['privacy:metadata:moodleoverflow_discussions'] = 'מידע על דיונים בפורום. כולל מידע אילו דיונים המשתמש יזם.';
+$string['privacy:metadata:moodleoverflow_discussions:name'] = 'שם הדיון.';
+$string['privacy:metadata:moodleoverflow_discussions:timemodified'] = 'מועד השינוי האחרון של הדיון.';
+$string['privacy:metadata:moodleoverflow_discussions:userid'] = 'מזהה המשתמש אשר יזם את הדיון.';
+$string['privacy:metadata:moodleoverflow_discussions:usermodified'] = 'מזהה המשתמש האחרון שעדכן את הדיון';
+$string['privacy:metadata:moodleoverflow_posts'] = 'מידע לגבי הפרסומים.';
+$string['privacy:metadata:moodleoverflow_posts:created'] = 'מועד יצירת הפרסום.';
+$string['privacy:metadata:moodleoverflow_posts:discussion'] = 'מזהה הדיון אשר הפרסום הזה תורם לו.';
+$string['privacy:metadata:moodleoverflow_posts:message'] = 'תוכן הפרסום.';
+$string['privacy:metadata:moodleoverflow_posts:modified'] = 'מועד העדכון האחרון של פרסום זה.';
+$string['privacy:metadata:moodleoverflow_posts:parent'] = 'מזהה הפרסום אשר פרסום זה מתייחס אליו.';
+$string['privacy:metadata:moodleoverflow_posts:userid'] = 'מזהה המשתמש אשר יצר פרסום זה.';
+$string['privacy:metadata:moodleoverflow_ratings'] = 'מידע לגבי דירוג הפרסומים. מועד הדיורג והדירוג עצמו.';
+$string['privacy:metadata:moodleoverflow_ratings:discussionid'] = 'מזהה הדיון שהפרסום המדורג הנו חלק ממנו.';
+$string['privacy:metadata:moodleoverflow_ratings:firstrated'] = 'מועד הגשת הדירוג.';
+$string['privacy:metadata:moodleoverflow_ratings:lastchanged'] = 'מועד השינוי האחרון של הדירוג.';
+$string['privacy:metadata:moodleoverflow_ratings:moodleoverflowid'] = 'מזהה פורום דרוג דיונים אשר מכיל את הפרסום שדורג.';
+$string['privacy:metadata:moodleoverflow_ratings:postid'] = 'מזהה הפרסום אשר דורג.';
+$string['privacy:metadata:moodleoverflow_ratings:rating'] = 'הדירוג שהוגש. 0 = נייטרלי, 1 = שלילי, 2 = חיובי, 3 = מועיל, 4 = פתרון';
+$string['privacy:metadata:moodleoverflow_ratings:userid'] = 'מזהה המשתמש אשר הגיש את הדירוג.';
+$string['privacy:metadata:moodleoverflow_read'] = 'מידע לגבי מצב מעקב קריאה של פרסומים. כולל מידע לגבי מועד קריאת הפרסומים על ידי המשתמש.';
+$string['privacy:metadata:moodleoverflow_read:discussionid'] = 'מזהה הדיון אשר אליו שייך הפרסום הנקרא,';
+$string['privacy:metadata:moodleoverflow_read:firstread'] = 'מועד קריאת הפרסום לראשונה.';
+$string['privacy:metadata:moodleoverflow_read:lastread'] = 'מועד קריאת הפרסום על ידי המשתמש לראשונה.';
+$string['privacy:metadata:moodleoverflow_read:postid'] = 'מזהה פרסום אשר נקרא.';
+$string['privacy:metadata:moodleoverflow_read:userid'] = 'מזהה המשתמש אשר קרא את הפרסום.';
+$string['privacy:metadata:moodleoverflow_subscriptions'] = 'מידע לגבי מינויים לעדכונים בפורומים. כולל מידע לאילו פורומים המשתמש רשום כמנוי לעדכונים.';
+$string['privacy:metadata:moodleoverflow_subscriptions:moodleoverflow'] = 'מזהה פורום דרוג דיונים אשר משתמש זה עוקב אחריו.';
+$string['privacy:metadata:moodleoverflow_subscriptions:userid'] = 'מזהה המשתמש אשר עוקב אחר הפורום.';
+$string['privacy:metadata:moodleoverflow_tracking'] = 'מידע לגבי מעקב בפורומים, כולל אילו פורומים לא נמצאים במעקב המשתמש.';
+$string['privacy:metadata:moodleoverflow_tracking:moodleoverflowid'] = 'מזהה פורום דרוג דיונים שהמשתמש לא עוקב אחריו.';
+$string['privacy:metadata:moodleoverflow_tracking:userid'] = 'מזהה המשתמש שאינו מבצע מעקב אחר פורום זה.';
+$string['privacy:postwasread'] = 'פרסום זה נקרא לראשונה ב {$a->firstread}  ולאחרונה ב {$a->lastread}';
+$string['privacy:readtrackingdisabled'] = 'אין מעקב אחר פרסומים שקראת בפורום זה.';
+$string['privacy:subscribedtoforum'] = 'קיים עבורך מנוי לפורום זה.';
+$string['rateownpost'] = 'אין אפשרות לדרג פרסום של עצמך.';
+$string['ratingfailed'] = 'דירוג לא צלח, נא לנסות שנית.';
+$string['ratingheading'] = 'דירוג ומוניטין';
+$string['ratingpreference'] = 'יש להציג ראשון';
+$string['ratingtoold'] = 'ניתן לשנות הצבעה תוך 30 דקות בלבד מתחילת ההצבעה.';
+$string['re'] = 'תגובה:';
+$string['reply'] = 'הוספת תגובה';
+$string['replyfirst'] = 'הוספת תגובה';
+$string['reputation'] = 'מוניטין';
+$string['reputationnotnegative'] = 'מוניטין חיובי בלבד?';
+$string['smallmessage'] = '{$a->user} פירסם ב {$a->moodleoverflowname}';
+$string['starterrating'] = 'מועיל';
+$string['subject'] = 'נושא';
+$string['subscribe'] = 'הירשם כמנוי לעדכונים בפורום זה';
+$string['subscribed'] = 'מנוי לעדכונים';
+$string['subscribeenrolledonly'] = 'מתנצלים, רק משתמשים רשומים יכולים להירשם לעדכונים.';
+$string['subscribestart'] = 'נא לעדכן אותי על פרסומים חדשים בפורום זה';
+$string['subscribestop'] = 'נא לא לעדכן אותי על פרסומים חדשים בפורום זה';
+$string['subscriptionauto'] = 'מנוי אוטומטי';
+$string['subscriptiondisabled'] = 'מנוי מושבת';
+$string['subscriptionforced'] = 'מנוי מאולץ';
+$string['subscriptionmode'] = 'מצב מנוי';
+$string['subscriptionoptional'] = 'מנוי ניתן לבחירה';
+$string['subscriptiontrackingheader'] = 'מנויים ומעקב';
+$string['taskcleanreadrecords'] = 'פעולת תחזוקה של פורום דרוג דיונים על מנת לנקות רישומים ישנים שנקראו';
+$string['tasksendmails'] = 'פעולת תחזוקה של פורום דרוג דיונים לצורך שליחת מיילים';
+$string['taskupdategrades'] = 'פעולת תחזוקה של פורום דרוג דיונים לצורך עדכון ציונים';
+$string['teacherrating'] = 'פתרון';
+$string['tracking'] = 'בצע מעקב';
+$string['trackingoff'] = 'כבוי';
+$string['trackingon'] = 'מאולץ';
+$string['trackingoptional'] = 'אופציונאלי';
+$string['trackingtype'] = 'מעקב קריאה';
+$string['trackmoodleoverflow'] = 'מעקב פרסומים שטרם נקראו';
+$string['unknownerror'] = 'זה לא היה צפוי...';
+$string['unreadposts'] = 'פרסומים אשר טרם נקראו';
+$string['unreadpostsnumber'] = '{$a} פרסומים טרם נקראו';
+$string['unreadpostsone'] = 'פרסום 1 טרם נקרא';
+$string['unsubscribe'] = 'ביטול קבלת עדכונים מפורום זה';
+$string['unsubscribediscussion'] = 'ביטול קבלת עדכונים מדיון זה';
+$string['unsubscribediscussionlink'] = 'ביטול קבלת עדכונים מדיון זה: {$a}';
+$string['unsubscribelink'] = 'ביטול קבלת עדכונים מפורום זה: {$a}';
+$string['updategrades'] = 'עדכון ציונים';
+$string['upvotenotchangeable'] = 'הצבעה חיובית (לא בר שינוי)';
+$string['votescaledownvote'] = 'מוניטין: הצבעה שלילית';
+$string['votescalehelpful'] = 'מוניטין: מועיל';
+$string['votescalesolved'] = 'מוניטין: פתרון';
+$string['votescaleupvote'] = 'מוניטין: הצבעה חיובית';
+$string['votescalevote'] = 'מוניטין: הצבעה';
+$string['yournewtopic'] = 'נושא הדיון החדש שלך';
+$string['yourreply'] = 'התגובה שלך';
